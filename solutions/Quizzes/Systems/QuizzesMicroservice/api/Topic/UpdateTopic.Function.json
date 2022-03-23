@@ -1,0 +1,42 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "topicId",
+        "type": "integer"
+      },
+      {
+        "name": "topic",
+        "type": "Topic"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsUpdate(QuizzesDataBase.Topic, ^topic, topicId == ^topicId)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "routing": {
+    "method": "PATCH",
+    "parameters": [
+      {
+        "bind": "topicId",
+        "in": "Path",
+        "name": "topicId",
+        "remarks": "Id."
+      },
+      {
+        "bind": "topic",
+        "in": "Body",
+        "name": "body",
+        "remarks": "New Topic information to be updated."
+      }
+    ],
+    "path": "/topic/{topicId}",
+    "remarks": "Allows to update an existing Topic.",
+    "responses": []
+  }
+}

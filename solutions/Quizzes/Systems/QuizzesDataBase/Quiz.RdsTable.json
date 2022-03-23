@@ -1,0 +1,65 @@
+{
+  "autoincrementalPrimaryKey": true,
+  "columns": [
+    {
+      "alias": "quizId",
+      "name": "QUIZ_ID",
+      "primaryKey": true,
+      "type": "integer"
+    },
+    {
+      "alias": "topicId",
+      "name": "TOPIC_ID",
+      "type": "integer"
+    },
+    {
+      "alias": "question",
+      "name": "QUESTION",
+      "type": "string"
+    },
+    {
+      "alias": "answer1",
+      "name": "ANSWER_1",
+      "type": "string"
+    },
+    {
+      "alias": "answer2",
+      "name": "ANSWER_2",
+      "type": "string"
+    },
+    {
+      "alias": "answer3",
+      "name": "ANSWER_3",
+      "type": "string"
+    },
+    {
+      "alias": "answer4",
+      "name": "ANSWER_4",
+      "type": "string"
+    },
+    {
+      "alias": "correctAnswer",
+      "name": "CORRECT_ANSWER",
+      "type": "integer"
+    }
+  ],
+  "foreignKeys": [
+    {
+      "alias": "topic",
+      "details": [
+        {
+          "columnName": "TOPIC_ID",
+          "relatedColumnName": "TOPIC_ID"
+        }
+      ],
+      "name": "QUIZ_PK",
+      "rdsTableName": "Topic"
+    }
+  ],
+  "indexes": [],
+  "isView": false,
+  "primaryKeyName": "QUIZ_ID",
+  "sequenceName": "QUIZ_SQ",
+  "tableName": "QUIZ",
+  "uniqueKeys": []
+}

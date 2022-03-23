@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "topicId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsDelete(QuizzesDataBase.Topic, topicId == ^topicId)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "routing": {
+    "method": "DELETE",
+    "parameters": [
+      {
+        "bind": "topicId",
+        "in": "Path",
+        "name": "topicId",
+        "remarks": "Id."
+      }
+    ],
+    "path": "/topic/{topicId}",
+    "remarks": "Allows to delete a Topic.",
+    "responses": []
+  }
+}

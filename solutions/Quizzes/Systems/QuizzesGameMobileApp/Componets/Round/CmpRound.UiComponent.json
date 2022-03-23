@@ -1,0 +1,263 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "ReadModel",
+            "modelVariableName": "gameId",
+            "variableName": "gameId"
+          },
+          {
+            "command": "Set",
+            "expression": "QuizzesMicroservice.StartRound( gameId )",
+            "variableName": "gameState"
+          },
+          {
+            "command": "Set",
+            "expression": "[ \n\t[ 1, gameState.currentQuiz.answer1 ],\n    [ 2, gameState.currentQuiz.answer2 ],\n    [ 3, gameState.currentQuiz.answer3 ],\n    [ 4, gameState.currentQuiz.answer4 ]\n]",
+            "variableName": "answers"
+          },
+          {
+            "command": "SetValue",
+            "expression": "{\n\tcurrentRound: gameState.currentRound,\n    totalRounds: gameState.totalRounds,\n    question: gameState.currentQuiz.question\n}",
+            "widgetName": "htmlrendererQuestion"
+          },
+          {
+            "command": "Load",
+            "expression": "answers",
+            "widgetName": "optiongroupAnswers"
+          },
+          {
+            "command": "WriteModel",
+            "expression": "answers",
+            "modelVariableName": "answers"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "gameId",
+            "type": "integer"
+          },
+          {
+            "name": "gameState",
+            "type": "QuizzesMicroservice.GameState"
+          },
+          {
+            "name": "answers",
+            "type": "list( tuple( integer, string ) )"
+          }
+        ]
+      },
+      "name": "main_init"
+    },
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "ReadModel",
+            "modelVariableName": "gameId",
+            "variableName": "gameId"
+          },
+          {
+            "command": "GetValue",
+            "variableName": "userAnswer",
+            "widgetName": "optiongroupAnswers"
+          },
+          {
+            "children": [
+              {
+                "command": "AlertMessage",
+                "expressionMessage": "\"Please, select an answers\"",
+                "expressionTitle": "\"Please, select an answers\"",
+                "severity": "error"
+              },
+              {
+                "command": "Return",
+                "expression": "null"
+              }
+            ],
+            "command": "If",
+            "expression": "IsNull(userAnswer)"
+          },
+          {
+            "command": "Set",
+            "expression": "QuizzesMicroservice.EndRound({gameId:^gameId, userAnswer:^userAnswer})",
+            "variableName": "response"
+          },
+          {
+            "command": "Execute",
+            "expression": "showRoundResult(userAnswer, response)"
+          },
+          {
+            "children": [
+              {
+                "command": "Navigate",
+                "expressionStartModel": "{gameId:^gameId}",
+                "uiComponentName": "CmpEndGame"
+              }
+            ],
+            "command": "If",
+            "expression": "response.isGameEnded"
+          },
+          {
+            "children": [
+              {
+                "command": "Navigate",
+                "expressionStartModel": "{gameId:^gameId}",
+                "uiComponentName": "CmpRound"
+              }
+            ],
+            "command": "Else"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "gameId",
+            "type": "integer"
+          },
+          {
+            "name": "userAnswer",
+            "type": "integer"
+          },
+          {
+            "name": "response",
+            "type": "QuizzesMicroservice.EndRoundResponse"
+          }
+        ]
+      },
+      "name": "buttonSendAnswer_click"
+    },
+    {
+      "algorithm": {
+        "parameters": [
+          {
+            "name": "userAnswer",
+            "type": "integer"
+          },
+          {
+            "name": "response",
+            "type": "QuizzesMicroservice.EndRoundResponse"
+          }
+        ],
+        "statements": [
+          {
+            "command": "Set",
+            "expression": "response.correctAnswer == ^userAnswer",
+            "variableName": "wasCorrect"
+          },
+          {
+            "command": "ReadModel",
+            "modelVariableName": "answers",
+            "variableName": "answers"
+          },
+          {
+            "command": "Set",
+            "expression": "FindFirst(answers,First(This()) == ^response.correctAnswer)[1]",
+            "variableName": "correctAnswer"
+          },
+          {
+            "command": "Navigate",
+            "expressionStartModel": "{ wasCorrect:^wasCorrect, correctAnswer:^correctAnswer}",
+            "uiComponentName": "CmpRoundResult"
+          },
+          {
+            "children": [
+              {
+                "command": "ReadConfigParameter",
+                "configParameterName": "MsWaitWhenCorrectAnswer",
+                "variableName": "msWaitTime"
+              }
+            ],
+            "command": "If",
+            "expression": "wasCorrect"
+          },
+          {
+            "children": [
+              {
+                "command": "ReadConfigParameter",
+                "configParameterName": "MsWaitWhenInCorrectAnswer",
+                "variableName": "msWaitTime"
+              }
+            ],
+            "command": "Else"
+          },
+          {
+            "command": "Sleep",
+            "expressionMilliseconds": "msWaitTime"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "wasCorrect",
+            "type": "boolean"
+          },
+          {
+            "name": "answers",
+            "type": "list( tuple( integer, string ) )"
+          },
+          {
+            "name": "correctAnswer",
+            "type": "string"
+          },
+          {
+            "name": "msWaitTime",
+            "type": "integer"
+          }
+        ]
+      },
+      "name": "showRoundResult"
+    }
+  ],
+  "model": [
+    {
+      "name": "gameId",
+      "required": true,
+      "type": "integer"
+    },
+    {
+      "name": "answers",
+      "required": false,
+      "type": "list( tuple( integer, string ) )"
+    }
+  ],
+  "root": {
+    "children": [
+      {
+        "cssClass": "blz-padding-right-large blz-padding-left-large",
+        "htmlTemplate": "<center>\n  <h6>\n    <i>\n      Question {{currentRound}} / {{totalRounds}}\n    </i>\n  </h6>\n  <h3>\n    <b>\n      {{question}}\n    </b>\n  </h3>\n</center>",
+        "name": "htmlrendererQuestion",
+        "widget": "HtmlRenderer"
+      },
+      {
+        "cssClass": "blz-padding-top-large blz-padding-bottom-large blz-border-top blz-border-bottom",
+        "dataFormat": "key-value",
+        "display": "normal",
+        "mode": "single",
+        "name": "optiongroupAnswers",
+        "widget": "OptionGroup"
+      },
+      {
+        "align": "center",
+        "color": "primary",
+        "cssClass": "blz-padding-top-large",
+        "name": "buttonSendAnswer",
+        "size": "large",
+        "text": "NEXT",
+        "widget": "Button"
+      }
+    ],
+    "cssClass": "blz-padding-top-large blz-area-default",
+    "layout": "container",
+    "verticalSeparation": "large"
+  },
+  "routing": {
+    "path": "/round-game"
+  },
+  "unused": []
+}

@@ -1,0 +1,56 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "args",
+        "type": "ArgsListRounds"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsSelect(QuizzesDataBase.Round, This(), [RdsConditional(roundId == ^args.roundId, !IsNull(^args.roundId)), RdsConditional(gameId == ^args.gameId, !IsNull(^args.gameId)), RdsConditional(quizId == ^args.quizId, !IsNull(^args.quizId))], roundId, ^args.offset, ^args.limit)"
+      }
+    ],
+    "typeReturn": "list(Round)",
+    "variables": []
+  },
+  "routing": {
+    "method": "GET",
+    "parameters": [
+      {
+        "bind": "args.roundId",
+        "in": "Query",
+        "name": "roundId",
+        "remarks": "For filtering."
+      },
+      {
+        "bind": "args.gameId",
+        "in": "Query",
+        "name": "gameId",
+        "remarks": "For filtering."
+      },
+      {
+        "bind": "args.quizId",
+        "in": "Query",
+        "name": "quizId",
+        "remarks": "For filtering."
+      },
+      {
+        "bind": "args.offset",
+        "in": "Query",
+        "name": "offset",
+        "remarks": "Requested index for start the results to be provided in response."
+      },
+      {
+        "bind": "args.limit",
+        "in": "Query",
+        "name": "limit",
+        "remarks": "Requested number results to be provided in response."
+      }
+    ],
+    "path": "/rounds",
+    "remarks": "Allows to get a list of Rounds.",
+    "responses": []
+  }
+}

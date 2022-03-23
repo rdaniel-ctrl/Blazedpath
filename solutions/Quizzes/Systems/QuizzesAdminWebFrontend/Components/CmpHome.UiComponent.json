@@ -1,0 +1,250 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "Navigate",
+            "expressionStartModel": "null",
+            "uiComponentName": "CmpTopicsAdmin"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "iconTopicAdmin_click"
+    },
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "Navigate",
+            "expressionStartModel": "null",
+            "uiComponentName": "CmpListQuizzesGames"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "iconGameQuizzes_click"
+    },
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "Navigate",
+            "expressionStartModel": "null",
+            "uiComponentName": "CmpQuizzesAdmin"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "iconQuizzesAdmin_click"
+    },
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "Navigate",
+            "expressionStartModel": "null",
+            "uiComponentName": "CmpRanking"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": []
+      },
+      "name": "iconRanking_click"
+    }
+  ],
+  "model": [],
+  "root": {
+    "alignItems": "center",
+    "children": [
+      {
+        "align": "center",
+        "attribute": {
+          "color": "default",
+          "name": "labelWelcome",
+          "size": "large",
+          "text": "Welcome to"
+        },
+        "color": "default",
+        "name": "labelWelcome",
+        "size": "large",
+        "text": "Welcome to",
+        "widget": "Label"
+      },
+      {
+        "align": "center",
+        "attribute": {
+          "color": "default",
+          "icon": "quiz-color.svg",
+          "name": "iconLogo",
+          "size": "xx-large"
+        },
+        "color": "default",
+        "icon": "quiz-color.svg",
+        "name": "iconLogo",
+        "size": "xx-large",
+        "widget": "Icon"
+      },
+      {
+        "align": "center",
+        "attribute": {
+          "bold": true,
+          "color": "primary",
+          "name": "labelTitle",
+          "size": "x-large",
+          "text": "Quizzes Manager"
+        },
+        "bold": true,
+        "color": "primary",
+        "cssClass": "blz-padding-bottom-large",
+        "name": "labelTitle",
+        "size": "x-large",
+        "text": "Quizzes Manager",
+        "widget": "Label"
+      },
+      {
+        "alignItems": "center",
+        "children": [
+          {
+            "children": [
+              {
+                "align": "center",
+                "attribute": {
+                  "clickable": true,
+                  "color": "secondary",
+                  "icon": "topic.svg",
+                  "name": "iconTopicAdmin",
+                  "size": "xx-large"
+                },
+                "clickable": true,
+                "color": "secondary",
+                "icon": "topic.svg",
+                "name": "iconTopicAdmin",
+                "size": "xx-large",
+                "widget": "Icon"
+              },
+              {
+                "align": "center",
+                "color": "default",
+                "name": "labelTopicAdmin",
+                "text": "Add,edit and remove topics",
+                "widget": "Label"
+              }
+            ],
+            "cssClass": "blz-border-top blz-border-right blz-border-left blz-border-bottom blz-border-radius blz-cast-shadow",
+            "layout": "container",
+            "size": "5/12"
+          },
+          {
+            "children": [
+              {
+                "align": "center",
+                "attribute": {
+                  "clickable": true,
+                  "color": "secondary",
+                  "icon": "quiz-edit.svg",
+                  "name": "iconQuizzesAdmin"
+                },
+                "clickable": true,
+                "color": "secondary",
+                "icon": "quiz-edit.svg",
+                "name": "iconQuizzesAdmin",
+                "size": "xx-large",
+                "widget": "Icon"
+              },
+              {
+                "align": "center",
+                "color": "default",
+                "name": "labelQuizzesAdmin",
+                "text": "Add,edit and remove quizzes",
+                "widget": "Label"
+              }
+            ],
+            "cssClass": "blz-border-top blz-border-right blz-border-left blz-border-bottom blz-border-radius blz-cast-shadow",
+            "layout": "container",
+            "size": "5/12"
+          },
+          {
+            "children": [
+              {
+                "align": "center",
+                "attribute": {
+                  "clickable": true,
+                  "color": "secondary",
+                  "icon": "played-games.svg",
+                  "name": "iconGameQuizzes"
+                },
+                "clickable": true,
+                "color": "secondary",
+                "icon": "played-games.svg",
+                "name": "iconGameQuizzes",
+                "size": "xx-large",
+                "widget": "Icon"
+              },
+              {
+                "align": "center",
+                "color": "default",
+                "name": "labelGameQuizzes",
+                "text": "List quizzes games",
+                "widget": "Label"
+              }
+            ],
+            "cssClass": "blz-border-top blz-border-right blz-border-left blz-border-bottom blz-border-radius blz-cast-shadow",
+            "layout": "container",
+            "size": "5/12"
+          },
+          {
+            "children": [
+              {
+                "align": "center",
+                "attribute": {
+                  "clickable": true,
+                  "color": "secondary",
+                  "icon": "ranking.svg",
+                  "name": "iconRanking",
+                  "size": "xx-large"
+                },
+                "clickable": true,
+                "color": "secondary",
+                "icon": "ranking.svg",
+                "name": "iconRanking",
+                "size": "xx-large",
+                "widget": "Icon"
+              },
+              {
+                "align": "center",
+                "color": "default",
+                "name": "labelRanking",
+                "text": "Ranking",
+                "widget": "Label"
+              }
+            ],
+            "cssClass": "blz-border-top blz-border-right blz-border-left blz-border-bottom blz-border-radius blz-cast-shadow",
+            "layout": "container",
+            "size": "5/12"
+          }
+        ],
+        "horizontalSeparation": "large",
+        "layout": "container",
+        "size": "7/12",
+        "verticalSeparation": "large"
+      }
+    ],
+    "cssClass": "blz-padding-top-large blz-padding-right-large blz-padding-left-large blz-padding-bottom-large blz-area-default",
+    "horizontalSeparation": "large",
+    "layout": "container",
+    "verticalSeparation": "large"
+  },
+  "routing": {
+    "path": "/home"
+  },
+  "unused": []
+}

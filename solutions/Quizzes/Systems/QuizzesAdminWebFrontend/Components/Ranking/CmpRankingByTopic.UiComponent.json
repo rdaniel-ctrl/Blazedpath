@@ -1,0 +1,307 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "ReadModel",
+            "modelVariableName": "instance",
+            "variableName": "instance"
+          },
+          {
+            "command": "Set",
+            "expression": "First(instance)",
+            "variableName": "firstGame"
+          },
+          {
+            "command": "Set",
+            "expression": "firstGame.topic.name",
+            "variableName": "topicName"
+          },
+          {
+            "command": "SetValue",
+            "expression": "topicName",
+            "widgetName": "fieldTopicName"
+          },
+          {
+            "command": "Set",
+            "expression": "[]",
+            "variableName": "ranking"
+          },
+          {
+            "command": "Set",
+            "expression": "1",
+            "variableName": "position"
+          },
+          {
+            "children": [
+              {
+                "command": "Push",
+                "expressionItem": "{position:^position, game:^game}",
+                "variableNameList": "ranking"
+              },
+              {
+                "command": "Set",
+                "expression": "position + 1",
+                "variableName": "position"
+              }
+            ],
+            "command": "ForEach",
+            "expressionList": "instance",
+            "variableNameItem": "game"
+          },
+          {
+            "command": "SetValue",
+            "expression": "ranking",
+            "widgetName": "gridRanking"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "instance",
+            "type": "list(QuizzesMicroservice.Game)"
+          },
+          {
+            "name": "firstGame",
+            "type": "QuizzesMicroservice.Game"
+          },
+          {
+            "name": "topicName",
+            "type": "string"
+          },
+          {
+            "name": "game",
+            "type": "QuizzesMicroservice.Game"
+          },
+          {
+            "name": "ranking",
+            "type": "list(RankingItem)"
+          },
+          {
+            "name": "position",
+            "type": "integer"
+          }
+        ]
+      },
+      "name": "main_init"
+    },
+    {
+      "algorithm": {
+        "parameters": [
+          {
+            "name": "recordData",
+            "type": "any"
+          }
+        ],
+        "statements": [
+          {
+            "command": "Set",
+            "expression": "recordData",
+            "variableName": "record"
+          },
+          {
+            "command": "Set",
+            "expression": "\"\"",
+            "variableName": "icon"
+          },
+          {
+            "command": "Set",
+            "expression": "\"\"",
+            "variableName": "text"
+          },
+          {
+            "command": "Switch",
+            "expression": "record.position"
+          },
+          {
+            "children": [
+              {
+                "command": "Set",
+                "expression": "\"ranking-1.svg\"",
+                "variableName": "icon"
+              }
+            ],
+            "command": "Case",
+            "expression": "1"
+          },
+          {
+            "children": [
+              {
+                "command": "Set",
+                "expression": "\"ranking-2.svg\"",
+                "variableName": "icon"
+              }
+            ],
+            "command": "Case",
+            "expression": "2"
+          },
+          {
+            "children": [
+              {
+                "command": "Set",
+                "expression": "\"ranking-3.svg\"",
+                "variableName": "icon"
+              }
+            ],
+            "command": "Case",
+            "expression": "3"
+          },
+          {
+            "children": [
+              {
+                "command": "Set",
+                "expression": "ConvertToString(record.position)",
+                "variableName": "text"
+              }
+            ],
+            "command": "Default"
+          },
+          {
+            "command": "Set",
+            "expression": "{}",
+            "variableName": "result"
+          },
+          {
+            "command": "Set",
+            "expression": "icon",
+            "variableName": "result.icon"
+          },
+          {
+            "command": "Set",
+            "expression": "text",
+            "variableName": "result.text"
+          },
+          {
+            "command": "Return",
+            "expression": "result"
+          }
+        ],
+        "typeReturn": "RenderColumnResult",
+        "variables": [
+          {
+            "name": "result",
+            "type": "RenderColumnResult"
+          },
+          {
+            "name": "record",
+            "type": "RankingItem"
+          },
+          {
+            "name": "icon",
+            "type": "string"
+          },
+          {
+            "name": "text",
+            "type": "string"
+          }
+        ]
+      },
+      "name": "gridRanking_renderColumn_position"
+    },
+    {
+      "algorithm": {
+        "parameters": [
+          {
+            "name": "recordData",
+            "type": "any"
+          }
+        ],
+        "statements": [
+          {
+            "command": "Set",
+            "expression": "recordData",
+            "variableName": "record"
+          },
+          {
+            "command": "Set",
+            "expression": "{}",
+            "variableName": "result"
+          },
+          {
+            "command": "Set",
+            "expression": "GetFormatedElapsedTime(record.game.totalTime)",
+            "variableName": "result.text"
+          },
+          {
+            "command": "Return",
+            "expression": "result"
+          }
+        ],
+        "typeReturn": "RenderColumnResult",
+        "variables": [
+          {
+            "name": "result",
+            "type": "RenderColumnResult"
+          },
+          {
+            "name": "record",
+            "type": "RankingItem"
+          }
+        ]
+      },
+      "name": "gridRanking_renderColumn_totalTime"
+    }
+  ],
+  "model": [
+    {
+      "name": "instance",
+      "required": false,
+      "type": "list(QuizzesMicroservice.Game)"
+    }
+  ],
+  "root": {
+    "children": [
+      {
+        "align": "center",
+        "bold": true,
+        "color": "default",
+        "name": "fieldTopicName",
+        "size": "large",
+        "widget": "Field"
+      },
+      {
+        "columns": [
+          {
+            "align": "center",
+            "bindText": "position",
+            "format": "Number",
+            "header": "Position",
+            "key": "position",
+            "size": "1"
+          },
+          {
+            "align": "center",
+            "bindText": "game.playerName",
+            "header": "Player Name",
+            "size": "1"
+          },
+          {
+            "align": "center",
+            "bindText": "game.score",
+            "format": "Number",
+            "header": "Score",
+            "size": "1"
+          },
+          {
+            "align": "center",
+            "bindText": "game.totalTime",
+            "format": "Number",
+            "header": "Time",
+            "key": "totalTime",
+            "size": "1"
+          }
+        ],
+        "name": "gridRanking",
+        "typeName": "RankingItem",
+        "widget": "Grid"
+      }
+    ],
+    "cssClass": "blz-area-default",
+    "layout": "container",
+    "verticalSeparation": "large"
+  },
+  "routing": null,
+  "unused": []
+}

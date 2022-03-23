@@ -1,0 +1,68 @@
+{
+  "algorithm": {
+    "parameters": [],
+    "statements": [
+      {
+        "command": "Set",
+        "expression": "[]",
+        "variableName": "ranking"
+      },
+      {
+        "command": "Set",
+        "expression": "ListTopics(null)",
+        "variableName": "topics"
+      },
+      {
+        "children": [
+          {
+            "command": "Set",
+            "expression": "GetRankingByTopicId(topic.topicId,GetMaxRankingItemsPerTopic())",
+            "variableName": "rankingByTopic"
+          },
+          {
+            "children": [
+              {
+                "command": "Push",
+                "expressionItem": "rankingByTopic",
+                "variableNameList": "ranking"
+              }
+            ],
+            "command": "If",
+            "expression": "IsNotNull(rankingByTopic)&& Count(rankingByTopic) > 0"
+          }
+        ],
+        "command": "ForEach",
+        "expressionList": "topics",
+        "variableNameItem": "topic"
+      },
+      {
+        "command": "Return",
+        "expression": "ranking"
+      }
+    ],
+    "typeReturn": "list(list(Game))",
+    "variables": [
+      {
+        "name": "topics",
+        "type": "list(Topic)"
+      },
+      {
+        "name": "topic",
+        "type": "Topic"
+      },
+      {
+        "name": "rankingByTopic",
+        "type": "list(Game)"
+      },
+      {
+        "name": "ranking",
+        "type": "list(list(Game))"
+      }
+    ]
+  },
+  "routing": {
+    "method": "GET",
+    "path": "/ranking",
+    "remarks": "Get the ranking"
+  }
+}

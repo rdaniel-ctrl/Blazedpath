@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "quizId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsSelectOne(QuizzesDataBase.Quiz, This(), quizId == ^quizId)"
+      }
+    ],
+    "typeReturn": "Quiz",
+    "variables": []
+  },
+  "routing": {
+    "method": "GET",
+    "parameters": [
+      {
+        "bind": "quizId",
+        "in": "Path",
+        "name": "quizId",
+        "remarks": "Id."
+      }
+    ],
+    "path": "/quiz/{quizId}",
+    "remarks": "Allows to get a Quiz.",
+    "responses": []
+  }
+}

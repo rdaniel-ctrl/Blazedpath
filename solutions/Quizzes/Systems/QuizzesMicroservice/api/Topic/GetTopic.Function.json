@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "topicId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsSelectOne(QuizzesDataBase.Topic, This(), topicId == ^topicId)"
+      }
+    ],
+    "typeReturn": "Topic",
+    "variables": []
+  },
+  "routing": {
+    "method": "GET",
+    "parameters": [
+      {
+        "bind": "topicId",
+        "in": "Path",
+        "name": "topicId",
+        "remarks": "Id."
+      }
+    ],
+    "path": "/topic/{topicId}",
+    "remarks": "Allows to get a Topic.",
+    "responses": []
+  }
+}

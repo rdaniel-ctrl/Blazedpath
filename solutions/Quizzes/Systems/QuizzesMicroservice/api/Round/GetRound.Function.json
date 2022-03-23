@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "roundId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsSelectOne(QuizzesDataBase.Round, This(), roundId == ^roundId)"
+      }
+    ],
+    "typeReturn": "Round",
+    "variables": []
+  },
+  "routing": {
+    "method": "GET",
+    "parameters": [
+      {
+        "bind": "roundId",
+        "in": "Path",
+        "name": "roundId",
+        "remarks": "Id."
+      }
+    ],
+    "path": "/round/{roundId}",
+    "remarks": "Allows to get a Round.",
+    "responses": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "eventsAndFunctions": [],
+  "model": [
+    {
+      "name": "instance",
+      "required": false,
+      "type": "QuizzesMicroservice.Topic"
+    }
+  ],
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "binding": "instance.name",
+            "label": "Name",
+            "mandatory": true,
+            "name": "txtName",
+            "widget": "TextBox"
+          }
+        ],
+        "cssClass": "blz-padding-top-large",
+        "layout": "container"
+      }
+    ],
+    "cssClass": "blz-area-default",
+    "layout": "container"
+  },
+  "routing": null,
+  "unused": []
+}

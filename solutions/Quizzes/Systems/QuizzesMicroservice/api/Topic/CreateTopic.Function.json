@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "topic",
+        "type": "Topic"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsInsert(QuizzesDataBase.Topic, ^topic)"
+      }
+    ],
+    "typeReturn": "integer",
+    "variables": []
+  },
+  "routing": {
+    "method": "POST",
+    "parameters": [
+      {
+        "bind": "topic",
+        "in": "Body",
+        "name": "body",
+        "remarks": "Topic to be created."
+      }
+    ],
+    "path": "/topic",
+    "remarks": "Allows to create a new Topic.",
+    "responses": []
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "quizId",
+        "type": "integer"
+      },
+      {
+        "name": "quiz",
+        "type": "Quiz"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsUpdate(QuizzesDataBase.Quiz, ^quiz, quizId == ^quizId)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "routing": {
+    "method": "PATCH",
+    "parameters": [
+      {
+        "bind": "quizId",
+        "in": "Path",
+        "name": "quizId",
+        "remarks": "Id."
+      },
+      {
+        "bind": "quiz",
+        "in": "Body",
+        "name": "body",
+        "remarks": "New Quiz information to be updated."
+      }
+    ],
+    "path": "/quiz/{quizId}",
+    "remarks": "Allows to update an existing Quiz.",
+    "responses": []
+  }
+}

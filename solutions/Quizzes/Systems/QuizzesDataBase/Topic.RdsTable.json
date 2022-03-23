@@ -1,0 +1,23 @@
+{
+  "autoincrementalPrimaryKey": true,
+  "columns": [
+    {
+      "alias": "topicId",
+      "name": "TOPIC_ID",
+      "primaryKey": true,
+      "type": "integer"
+    },
+    {
+      "alias": "name",
+      "name": "NAME",
+      "type": "string"
+    }
+  ],
+  "foreignKeys": [],
+  "indexes": [],
+  "isView": false,
+  "primaryKeyName": "TOPIC_ID",
+  "sequenceName": "TOPIC_SQ",
+  "tableName": "TOPIC",
+  "uniqueKeys": []
+}

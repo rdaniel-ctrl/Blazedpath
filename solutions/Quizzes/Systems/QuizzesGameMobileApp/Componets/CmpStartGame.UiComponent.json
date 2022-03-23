@@ -1,0 +1,156 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "ReadModel",
+            "modelVariableName": "playerName",
+            "variableName": "playerName"
+          },
+          {
+            "command": "SetValue",
+            "expression": "playerName",
+            "widgetName": "textboxPlayerName"
+          },
+          {
+            "command": "Set",
+            "expression": "QuizzesMicroservice.ListTopics(null)",
+            "variableName": "topics"
+          },
+          {
+            "command": "Load",
+            "expression": "Map( topics,[topicId, name])",
+            "widgetName": "comboboxTopic"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "topics",
+            "type": "list( QuizzesMicroservice.Topic )"
+          },
+          {
+            "name": "playerName",
+            "type": "string"
+          }
+        ]
+      },
+      "name": "main_init"
+    },
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "GetValue",
+            "variableName": "playerName",
+            "widgetName": "textboxPlayerName"
+          },
+          {
+            "children": [
+              {
+                "command": "AlertMessage",
+                "expressionMessage": "\"Please, provide a name\"",
+                "expressionTitle": "\"Required field\"",
+                "severity": "error"
+              },
+              {
+                "command": "Return",
+                "expression": "null"
+              }
+            ],
+            "command": "If",
+            "expression": "IsNull( playerName )"
+          },
+          {
+            "command": "GetValue",
+            "variableName": "topicId",
+            "widgetName": "comboboxTopic"
+          },
+          {
+            "children": [
+              {
+                "command": "AlertMessage",
+                "expressionMessage": "\"Please, select a topic\"",
+                "expressionTitle": "\"Required field\"",
+                "severity": "error"
+              },
+              {
+                "command": "Return",
+                "expression": "null"
+              }
+            ],
+            "command": "If",
+            "expression": "IsNull( topicId )"
+          },
+          {
+            "command": "Set",
+            "expression": "QuizzesMicroservice.StartGame( {playerName:^playerName,topicId:^topicId})",
+            "variableName": "gameId"
+          },
+          {
+            "command": "Navigate",
+            "expressionStartModel": "{gameId: ^gameId}",
+            "uiComponentName": "CmpRound"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "playerName",
+            "type": "string"
+          },
+          {
+            "name": "topicId",
+            "type": "integer"
+          },
+          {
+            "name": "gameId",
+            "type": "integer"
+          }
+        ]
+      },
+      "name": "buttonStartGame_click"
+    }
+  ],
+  "model": [
+    {
+      "name": "playerName",
+      "required": false,
+      "type": "string"
+    }
+  ],
+  "root": {
+    "children": [
+      {
+        "cssClass": "blz-padding-top-large",
+        "label": "NAME *",
+        "name": "textboxPlayerName",
+        "widget": "TextBox"
+      },
+      {
+        "dataFormat": "key-value",
+        "label": "TOPIC *",
+        "mode": "single",
+        "name": "comboboxTopic",
+        "widget": "ComboBox"
+      },
+      {
+        "align": "center",
+        "color": "success",
+        "name": "buttonStartGame",
+        "size": "large",
+        "text": "START GAME",
+        "widget": "Button"
+      }
+    ],
+    "cssClass": "blz-padding-top-large blz-area-default",
+    "layout": "container"
+  },
+  "routing": {
+    "path": "/start-game"
+  },
+  "unused": []
+}

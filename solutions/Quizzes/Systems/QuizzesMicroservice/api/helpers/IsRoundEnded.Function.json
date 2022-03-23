@@ -1,0 +1,19 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "round",
+        "type": "Round"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "IsNull(round)|| IsNotNull(round.endTime)"
+      }
+    ],
+    "typeReturn": "boolean",
+    "variables": []
+  },
+  "routing": null
+}

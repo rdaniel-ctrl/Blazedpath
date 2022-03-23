@@ -1,0 +1,23 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "topicId",
+        "type": "integer"
+      },
+      {
+        "name": "limit",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "Transform(\n\tTrfGameWithTopic,\n    RdsSelectReader(\n    \tQuizzesDataBase.Game,\n        [topicId == ^topicId, score > 0,IsNotNull(totalTime)],\n        [RdsDesc(score),RdsAsc(totalTime)],\n        0,\n        limit\n        )\n        )"
+      }
+    ],
+    "typeReturn": "list(Game)",
+    "variables": []
+  },
+  "routing": null
+}

@@ -1,0 +1,145 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "gameId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Set",
+        "expression": "GetGameState( gameId )",
+        "variableName": "gameState"
+      },
+      {
+        "command": "Set",
+        "expression": "gameState.currentRound <= gameState.totalRounds && IsNull( gameState.currentQuiz )",
+        "variableName": "hasToCreateNewRound"
+      },
+      {
+        "children": [
+          {
+            "command": "Set",
+            "expression": "GetRandomQuiz( gameId )",
+            "variableName": "randomQuiz"
+          },
+          {
+            "children": [
+              {
+                "command": "Throw",
+                "errorName": "NotFound",
+                "expressionData": "\"Can't get a random quiz\"",
+                "expressionInnerError": "null"
+              }
+            ],
+            "command": "If",
+            "expression": "IsNull( randomQuiz )"
+          },
+          {
+            "command": "Set",
+            "expression": "{}",
+            "variableName": "newRound"
+          },
+          {
+            "command": "Set",
+            "expression": "gameId",
+            "variableName": "newRound.gameId"
+          },
+          {
+            "command": "Set",
+            "expression": "randomQuiz.quizId",
+            "variableName": "newRound.quizId"
+          },
+          {
+            "command": "Set",
+            "expression": "Now()",
+            "variableName": "newRound.startTime"
+          },
+          {
+            "command": "Set",
+            "expression": "CreateRound( newRound )",
+            "variableName": "roundIdCreated"
+          },
+          {
+            "command": "Set",
+            "expression": "{}",
+            "variableName": "gameState.currentQuiz"
+          },
+          {
+            "command": "Set",
+            "expression": "roundIdCreated",
+            "variableName": "gameState.currentQuiz.roundId"
+          },
+          {
+            "command": "Set",
+            "expression": "randomQuiz.question",
+            "variableName": "gameState.currentQuiz.question"
+          },
+          {
+            "command": "Set",
+            "expression": "randomQuiz.answer1",
+            "variableName": "gameState.currentQuiz.answer1"
+          },
+          {
+            "command": "Set",
+            "expression": "randomQuiz.answer2",
+            "variableName": "gameState.currentQuiz.answer2"
+          },
+          {
+            "command": "Set",
+            "expression": "randomQuiz.answer3",
+            "variableName": "gameState.currentQuiz.answer3"
+          },
+          {
+            "command": "Set",
+            "expression": "randomQuiz.answer4",
+            "variableName": "gameState.currentQuiz.answer4"
+          }
+        ],
+        "command": "If",
+        "expression": "hasToCreateNewRound"
+      },
+      {
+        "command": "Return",
+        "expression": "gameState"
+      }
+    ],
+    "typeReturn": "GameState",
+    "variables": [
+      {
+        "name": "gameState",
+        "type": "GameState"
+      },
+      {
+        "name": "hasToCreateNewRound",
+        "type": "boolean"
+      },
+      {
+        "name": "randomQuiz",
+        "type": "Quiz"
+      },
+      {
+        "name": "newRound",
+        "type": "Round"
+      },
+      {
+        "name": "roundIdCreated",
+        "type": "integer"
+      }
+    ]
+  },
+  "routing": {
+    "method": "POST",
+    "parameters": [
+      {
+        "bind": "gameId",
+        "in": "Path",
+        "name": "gameId",
+        "remarks": "The gameId of the current round."
+      }
+    ],
+    "path": "/start-round/{gameId}",
+    "remarks": "Starts (or continue) a new round."
+  }
+}

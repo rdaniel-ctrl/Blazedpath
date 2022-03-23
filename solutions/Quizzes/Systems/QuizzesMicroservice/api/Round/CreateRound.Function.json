@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "round",
+        "type": "Round"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsInsert(QuizzesDataBase.Round, ^round)"
+      }
+    ],
+    "typeReturn": "integer",
+    "variables": []
+  },
+  "routing": {
+    "method": "POST",
+    "parameters": [
+      {
+        "bind": "round",
+        "in": "Body",
+        "name": "body",
+        "remarks": "Round to be created."
+      }
+    ],
+    "path": "/round",
+    "remarks": "Allows to create a new Round.",
+    "responses": []
+  }
+}

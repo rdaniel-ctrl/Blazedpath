@@ -1,0 +1,62 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "args",
+        "type": "ArgsListGames"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "Transform(TrfGameWithTopic, RdsSelectReader(\nQuizzesDataBase.Game,\n[\nRdsConditional(gameId == ^args.gameId, !IsNull(^args.gameId)),\nRdsConditional(topicId == ^args.topicId, !IsNull(^args.topicId)),\nRdsConditional(\nRdsLike(topic.name, \"%\" + ^args.topicName + \"%\" ),\n!IsNull(^args.topicName)\n),\nRdsConditional(\nRdsLike(playerName, \"%\" + ^args.playerName + \"%\" ),\n!IsNull(^args.playerName)\n)\n],\nRdsDesc(gameId),\n^args.offset, \n^args.limit\n))"
+      }
+    ],
+    "typeReturn": "list(Game)",
+    "variables": []
+  },
+  "routing": {
+    "method": "GET",
+    "parameters": [
+      {
+        "bind": "args.gameId",
+        "in": "Query",
+        "name": "gameId",
+        "remarks": "For filtering."
+      },
+      {
+        "bind": "args.topicId",
+        "in": "Query",
+        "name": "topicId",
+        "remarks": "For filtering."
+      },
+      {
+        "bind": "args.offset",
+        "in": "Query",
+        "name": "offset",
+        "remarks": "Requested index for start the results to be provided in response."
+      },
+      {
+        "bind": "args.limit",
+        "in": "Query",
+        "name": "limit",
+        "remarks": "Requested number results to be provided in response."
+      },
+      {
+        "bind": "args.topicName",
+        "in": "Query",
+        "name": "topicName",
+        "remarks": "Filter by topic name."
+      },
+      {
+        "bind": "args.playerName",
+        "in": "Query",
+        "name": "playerName",
+        "remarks": "Filter by player name."
+      }
+    ],
+    "path": "/games",
+    "remarks": "Allows to get a list of Games.",
+    "responses": []
+  }
+}

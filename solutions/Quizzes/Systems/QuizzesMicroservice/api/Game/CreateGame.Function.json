@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "game",
+        "type": "Game"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsInsert(QuizzesDataBase.Game, ^game)"
+      }
+    ],
+    "typeReturn": "integer",
+    "variables": []
+  },
+  "routing": {
+    "method": "POST",
+    "parameters": [
+      {
+        "bind": "game",
+        "in": "Body",
+        "name": "body",
+        "remarks": "Game to be created."
+      }
+    ],
+    "path": "/game",
+    "remarks": "Allows to create a new Game.",
+    "responses": []
+  }
+}

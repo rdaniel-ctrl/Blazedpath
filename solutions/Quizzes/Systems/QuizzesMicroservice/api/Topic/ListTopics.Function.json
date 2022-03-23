@@ -1,0 +1,44 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "args",
+        "type": "ArgsListTopics"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsSelect(QuizzesDataBase.Topic, This(), [RdsConditional(topicId == ^args.topicId, !IsNull(^args.topicId))], topicId, ^args.offset, ^args.limit)"
+      }
+    ],
+    "typeReturn": "list(Topic)",
+    "variables": []
+  },
+  "routing": {
+    "method": "GET",
+    "parameters": [
+      {
+        "bind": "args.topicId",
+        "in": "Query",
+        "name": "topicId",
+        "remarks": "For filtering."
+      },
+      {
+        "bind": "args.offset",
+        "in": "Query",
+        "name": "offset",
+        "remarks": "Requested index for start the results to be provided in response."
+      },
+      {
+        "bind": "args.limit",
+        "in": "Query",
+        "name": "limit",
+        "remarks": "Requested number results to be provided in response."
+      }
+    ],
+    "path": "/topics",
+    "remarks": "Allows to get a list of Topics.",
+    "responses": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "gameId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Set",
+        "expression": "First(Transform(TrfRoundWithQuiz, RdsSelect(QuizzesDataBase.Round, This(), gameId == ^gameId, RdsDesc(roundId),0,1)))",
+        "variableName": "round"
+      },
+      {
+        "command": "Return",
+        "expression": "^round"
+      }
+    ],
+    "typeReturn": "Round",
+    "variables": [
+      {
+        "name": "round",
+        "type": "Round"
+      }
+    ]
+  },
+  "routing": null
+}

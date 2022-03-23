@@ -1,0 +1,119 @@
+{
+  "betweens": [],
+  "source": {
+    "elementType": "RdsTable",
+    "outputs": [
+      {
+        "codePath": "quizId",
+        "outputConnections": [
+          "c0"
+        ]
+      },
+      {
+        "codePath": "topicId",
+        "outputConnections": [
+          "c1"
+        ]
+      },
+      {
+        "codePath": "question",
+        "outputConnections": [
+          "c2"
+        ]
+      },
+      {
+        "codePath": "answer1",
+        "outputConnections": [
+          "c3"
+        ]
+      },
+      {
+        "codePath": "answer2",
+        "outputConnections": [
+          "c4"
+        ]
+      },
+      {
+        "codePath": "answer3",
+        "outputConnections": [
+          "c5"
+        ]
+      },
+      {
+        "codePath": "answer4",
+        "outputConnections": [
+          "c6"
+        ]
+      },
+      {
+        "codePath": "correctAnswer",
+        "outputConnections": [
+          "c7"
+        ]
+      },
+      {
+        "codePath": "topic.topicId",
+        "outputConnections": [
+          "c8"
+        ]
+      },
+      {
+        "codePath": "topic.name",
+        "outputConnections": [
+          "c9"
+        ]
+      }
+    ],
+    "rdsTableName": "QuizzesDataBase.Quiz",
+    "x": 60,
+    "y": 60
+  },
+  "target": {
+    "elementType": "Type",
+    "inputs": [
+      {
+        "codePath": "quizId",
+        "inputConnection": "c0"
+      },
+      {
+        "codePath": "topicId",
+        "inputConnection": "c1"
+      },
+      {
+        "codePath": "question",
+        "inputConnection": "c2"
+      },
+      {
+        "codePath": "answer1",
+        "inputConnection": "c3"
+      },
+      {
+        "codePath": "answer2",
+        "inputConnection": "c4"
+      },
+      {
+        "codePath": "answer3",
+        "inputConnection": "c5"
+      },
+      {
+        "codePath": "answer4",
+        "inputConnection": "c6"
+      },
+      {
+        "codePath": "correctAnswer",
+        "inputConnection": "c7"
+      },
+      {
+        "codePath": "topic.topicId",
+        "inputConnection": "c8"
+      },
+      {
+        "codePath": "topic.name",
+        "inputConnection": "c9"
+      }
+    ],
+    "typeName": "Quiz",
+    "x": 600,
+    "y": 60
+  }
+}

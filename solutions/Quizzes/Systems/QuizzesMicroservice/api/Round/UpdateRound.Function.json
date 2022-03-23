@@ -1,0 +1,42 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "roundId",
+        "type": "integer"
+      },
+      {
+        "name": "round",
+        "type": "Round"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsUpdate(QuizzesDataBase.Round, ^round, roundId == ^roundId)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "routing": {
+    "method": "PATCH",
+    "parameters": [
+      {
+        "bind": "roundId",
+        "in": "Path",
+        "name": "roundId",
+        "remarks": "Id."
+      },
+      {
+        "bind": "round",
+        "in": "Body",
+        "name": "body",
+        "remarks": "New Round information to be updated."
+      }
+    ],
+    "path": "/round/{roundId}",
+    "remarks": "Allows to update an existing Round.",
+    "responses": []
+  }
+}

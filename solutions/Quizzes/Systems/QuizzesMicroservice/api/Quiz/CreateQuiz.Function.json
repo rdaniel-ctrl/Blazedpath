@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "quiz",
+        "type": "Quiz"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsInsert(QuizzesDataBase.Quiz, ^quiz)"
+      }
+    ],
+    "typeReturn": "integer",
+    "variables": []
+  },
+  "routing": {
+    "method": "POST",
+    "parameters": [
+      {
+        "bind": "quiz",
+        "in": "Body",
+        "name": "body",
+        "remarks": "Quiz to be created."
+      }
+    ],
+    "path": "/quiz",
+    "remarks": "Allows to create a new Quiz.",
+    "responses": []
+  }
+}

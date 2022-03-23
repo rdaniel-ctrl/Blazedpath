@@ -1,0 +1,42 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "gameId",
+        "type": "integer"
+      },
+      {
+        "name": "endRoundScore",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Set",
+        "expression": "GetGame( gameId )",
+        "variableName": "game"
+      },
+      {
+        "command": "Set",
+        "expression": "game.score + endRoundScore",
+        "variableName": "newScore"
+      },
+      {
+        "command": "Execute",
+        "expression": "RdsUpdate( QuizzesDataBase.Game, { score: ^newScore }, gameId == ^gameId )"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": [
+      {
+        "name": "game",
+        "type": "Game"
+      },
+      {
+        "name": "newScore",
+        "type": "integer"
+      }
+    ]
+  },
+  "routing": null
+}

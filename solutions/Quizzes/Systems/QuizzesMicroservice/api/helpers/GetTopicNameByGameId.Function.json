@@ -1,0 +1,19 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "gameId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsSelectOne( QuizzesDataBase.Game, topic.name, gameId == ^gameId )"
+      }
+    ],
+    "typeReturn": "string",
+    "variables": []
+  },
+  "routing": null
+}

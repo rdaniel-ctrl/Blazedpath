@@ -1,0 +1,114 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "Set",
+            "expression": "QuizzesMicroservice.ListTopics(null)",
+            "variableName": "topicList"
+          },
+          {
+            "command": "Load",
+            "expression": "Map(topicList,[topicId,name])",
+            "widgetName": "cboTopicId"
+          },
+          {
+            "command": "Load",
+            "expression": "[[1,1],[2,2],[3,3],[4,4]]",
+            "widgetName": "cboCorrectAnswer"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "topicList",
+            "type": "list(QuizzesMicroservice.Topic)"
+          }
+        ]
+      },
+      "name": "main_init"
+    }
+  ],
+  "model": [
+    {
+      "name": "instance",
+      "required": false,
+      "type": "QuizzesMicroservice.Quiz"
+    }
+  ],
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "binding": "instance.question",
+            "label": "Question",
+            "mandatory": true,
+            "name": "txtQuestion",
+            "size": "12/12",
+            "widget": "TextBox"
+          },
+          {
+            "binding": "instance.answer1",
+            "label": "Answer1",
+            "mandatory": true,
+            "name": "txtAnswer1",
+            "size": "half",
+            "widget": "TextBox"
+          },
+          {
+            "binding": "instance.answer2",
+            "label": "Answer2",
+            "mandatory": true,
+            "name": "txtAnswer2",
+            "size": "half",
+            "widget": "TextBox"
+          },
+          {
+            "binding": "instance.answer3",
+            "label": "Answer3",
+            "mandatory": true,
+            "name": "txtAnswer3",
+            "size": "half",
+            "widget": "TextBox"
+          },
+          {
+            "binding": "instance.answer4",
+            "label": "Answer4",
+            "mandatory": true,
+            "name": "txtAnswer4",
+            "size": "half",
+            "widget": "TextBox"
+          },
+          {
+            "binding": "instance.correctAnswer",
+            "dataFormat": "key-value",
+            "label": "Correct Answer",
+            "mandatory": true,
+            "mode": "single",
+            "name": "cboCorrectAnswer",
+            "size": "half",
+            "widget": "ComboBox"
+          },
+          {
+            "binding": "instance.topicId",
+            "dataFormat": "key-value",
+            "label": "Topic Id",
+            "mandatory": true,
+            "mode": "single",
+            "name": "cboTopicId",
+            "size": "half",
+            "widget": "ComboBox"
+          }
+        ],
+        "layout": "container"
+      }
+    ],
+    "cssClass": "blz-area-default",
+    "layout": "container"
+  },
+  "routing": null,
+  "unused": []
+}

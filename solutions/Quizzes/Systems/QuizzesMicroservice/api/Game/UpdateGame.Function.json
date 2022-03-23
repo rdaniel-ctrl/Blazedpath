@@ -1,0 +1,42 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "gameId",
+        "type": "integer"
+      },
+      {
+        "name": "game",
+        "type": "Game"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsUpdate(QuizzesDataBase.Game, ^game, gameId == ^gameId)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "routing": {
+    "method": "PATCH",
+    "parameters": [
+      {
+        "bind": "gameId",
+        "in": "Path",
+        "name": "gameId",
+        "remarks": "Id."
+      },
+      {
+        "bind": "game",
+        "in": "Body",
+        "name": "body",
+        "remarks": "New Game information to be updated."
+      }
+    ],
+    "path": "/game/{gameId}",
+    "remarks": "Allows to update an existing Game.",
+    "responses": []
+  }
+}

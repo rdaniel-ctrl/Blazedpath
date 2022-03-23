@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "rdsTableName": "Game",
+      "x": 90,
+      "y": 59
+    },
+    {
+      "rdsTableName": "Quiz",
+      "x": 602,
+      "y": 52
+    },
+    {
+      "rdsTableName": "Round",
+      "x": 347,
+      "y": 62
+    },
+    {
+      "rdsTableName": "Topic",
+      "x": 335,
+      "y": 380
+    }
+  ]
+}

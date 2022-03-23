@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "quizId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsDelete(QuizzesDataBase.Quiz, quizId == ^quizId)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "routing": {
+    "method": "DELETE",
+    "parameters": [
+      {
+        "bind": "quizId",
+        "in": "Path",
+        "name": "quizId",
+        "remarks": "Id."
+      }
+    ],
+    "path": "/quiz/{quizId}",
+    "remarks": "Allows to delete a Quiz.",
+    "responses": []
+  }
+}

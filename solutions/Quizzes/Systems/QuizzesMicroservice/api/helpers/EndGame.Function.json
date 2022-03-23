@@ -1,0 +1,29 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "gameId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Set",
+        "expression": "GetTotalTime( gameId )",
+        "variableName": "totalTime"
+      },
+      {
+        "command": "Execute",
+        "expression": "RdsUpdate( QuizzesDataBase.Game, { endTime: Now(), totalTime: ^totalTime }, gameId == ^gameId )"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": [
+      {
+        "name": "totalTime",
+        "type": "integer"
+      }
+    ]
+  },
+  "routing": null
+}

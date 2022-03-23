@@ -1,0 +1,109 @@
+{
+  "betweens": [],
+  "source": {
+    "elementType": "RdsTable",
+    "outputs": [
+      {
+        "codePath": "gameId",
+        "outputConnections": [
+          "c8"
+        ]
+      },
+      {
+        "codePath": "topicId",
+        "outputConnections": [
+          "c7"
+        ]
+      },
+      {
+        "codePath": "playerName",
+        "outputConnections": [
+          "c6"
+        ]
+      },
+      {
+        "codePath": "startTime",
+        "outputConnections": [
+          "c5"
+        ]
+      },
+      {
+        "codePath": "endTime",
+        "outputConnections": [
+          "c4"
+        ]
+      },
+      {
+        "codePath": "score",
+        "outputConnections": [
+          "c3"
+        ]
+      },
+      {
+        "codePath": "totalTime",
+        "outputConnections": [
+          "c2"
+        ]
+      },
+      {
+        "codePath": "topic.topicId",
+        "outputConnections": [
+          "c0"
+        ]
+      },
+      {
+        "codePath": "topic.name",
+        "outputConnections": [
+          "c1"
+        ]
+      }
+    ],
+    "rdsTableName": "QuizzesDataBase.Game",
+    "x": 59,
+    "y": 59
+  },
+  "target": {
+    "elementType": "Type",
+    "inputs": [
+      {
+        "codePath": "gameId",
+        "inputConnection": "c8"
+      },
+      {
+        "codePath": "topicId",
+        "inputConnection": "c7"
+      },
+      {
+        "codePath": "playerName",
+        "inputConnection": "c6"
+      },
+      {
+        "codePath": "startTime",
+        "inputConnection": "c5"
+      },
+      {
+        "codePath": "endTime",
+        "inputConnection": "c4"
+      },
+      {
+        "codePath": "score",
+        "inputConnection": "c3"
+      },
+      {
+        "codePath": "totalTime",
+        "inputConnection": "c2"
+      },
+      {
+        "codePath": "topic.topicId",
+        "inputConnection": "c0"
+      },
+      {
+        "codePath": "topic.name",
+        "inputConnection": "c1"
+      }
+    ],
+    "typeName": "Game",
+    "x": 600,
+    "y": 60
+  }
+}

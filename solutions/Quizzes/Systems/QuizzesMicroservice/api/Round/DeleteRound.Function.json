@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "roundId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsDelete(QuizzesDataBase.Round, roundId == ^roundId)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "routing": {
+    "method": "DELETE",
+    "parameters": [
+      {
+        "bind": "roundId",
+        "in": "Path",
+        "name": "roundId",
+        "remarks": "Id."
+      }
+    ],
+    "path": "/round/{roundId}",
+    "remarks": "Allows to delete a Round.",
+    "responses": []
+  }
+}

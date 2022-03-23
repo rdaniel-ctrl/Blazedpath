@@ -1,0 +1,164 @@
+{
+  "eventsAndFunctions": [
+    {
+      "algorithm": {
+        "parameters": [],
+        "statements": [
+          {
+            "command": "ReadModel",
+            "modelVariableName": "wasCorrect",
+            "variableName": "wasCorrect"
+          },
+          {
+            "command": "ReadModel",
+            "modelVariableName": "correctAnswer",
+            "variableName": "correctAnswer"
+          },
+          {
+            "command": "Hide",
+            "widgetName": "correctContainer"
+          },
+          {
+            "command": "Hide",
+            "widgetName": "incorrectContainer"
+          },
+          {
+            "children": [
+              {
+                "command": "Show",
+                "widgetName": "correctContainer"
+              }
+            ],
+            "command": "If",
+            "expression": "wasCorrect"
+          },
+          {
+            "children": [
+              {
+                "command": "SetValue",
+                "expression": "{correcAnswer:^correctAnswer}",
+                "widgetName": "htmlrendererCorrectAnswer"
+              },
+              {
+                "command": "Show",
+                "widgetName": "incorrectContainer"
+              }
+            ],
+            "command": "Else"
+          }
+        ],
+        "typeReturn": "any",
+        "variables": [
+          {
+            "name": "wasCorrect",
+            "type": "boolean"
+          },
+          {
+            "name": "correctAnswer",
+            "type": "string"
+          }
+        ]
+      },
+      "name": "main_init"
+    }
+  ],
+  "model": [
+    {
+      "name": "wasCorrect",
+      "required": true,
+      "type": "boolean"
+    },
+    {
+      "name": "correctAnswer",
+      "required": false,
+      "type": "string"
+    }
+  ],
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "align": "center",
+            "attribute": {
+              "color": "success",
+              "icon": "correct.svg",
+              "name": "iconCorrect",
+              "size": "xx-large"
+            },
+            "color": "success",
+            "icon": "correct.svg",
+            "name": "iconCorrect",
+            "size": "xx-large",
+            "widget": "Icon"
+          },
+          {
+            "align": "center",
+            "attribute": {
+              "bold": true,
+              "color": "success",
+              "name": "labelCorrect",
+              "size": "x-large",
+              "text": "Correct!"
+            },
+            "bold": true,
+            "color": "success",
+            "name": "labelCorrect",
+            "size": "x-large",
+            "text": "Correct!",
+            "widget": "Label"
+          }
+        ],
+        "layout": "container",
+        "name": "correctContainer"
+      },
+      {
+        "children": [
+          {
+            "align": "center",
+            "attribute": {
+              "color": "error",
+              "icon": "incorrect.svg",
+              "name": "iconInCorrect",
+              "size": "xx-large"
+            },
+            "color": "error",
+            "icon": "incorrect.svg",
+            "name": "iconInCorrect",
+            "size": "xx-large",
+            "widget": "Icon"
+          },
+          {
+            "align": "center",
+            "attribute": {
+              "bold": true,
+              "color": "error",
+              "name": "labelInCorrect",
+              "size": "x-large",
+              "text": "InCorrect!"
+            },
+            "bold": true,
+            "color": "error",
+            "name": "labelInCorrect",
+            "size": "x-large",
+            "text": "InCorrect!",
+            "widget": "Label"
+          }
+        ],
+        "layout": "container",
+        "name": "incorrectContainer"
+      },
+      {
+        "htmlTemplate": "<center>\n  <h4>\n    the correct answer was: \n  </h4>\n  <h3>\n    {{correctAnswer}}\n  </h3>\n</center>",
+        "name": "htmlrendererCorrectAnswer",
+        "widget": "HtmlRenderer"
+      }
+    ],
+    "cssClass": "blz-area-default",
+    "layout": "container"
+  },
+  "routing": {
+    "path": "/round-game-result"
+  },
+  "unused": []
+}

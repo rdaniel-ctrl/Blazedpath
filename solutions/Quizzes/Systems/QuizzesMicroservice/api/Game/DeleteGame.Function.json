@@ -1,0 +1,32 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "gameId",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Return",
+        "expression": "RdsDelete(QuizzesDataBase.Game, gameId == ^gameId)"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  },
+  "routing": {
+    "method": "DELETE",
+    "parameters": [
+      {
+        "bind": "gameId",
+        "in": "Path",
+        "name": "gameId",
+        "remarks": "Id."
+      }
+    ],
+    "path": "/game/{gameId}",
+    "remarks": "Allows to delete a Game.",
+    "responses": []
+  }
+}

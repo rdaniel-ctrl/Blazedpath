@@ -1,0 +1,30 @@
+{
+  "algorithm": {
+    "parameters": [],
+    "statements": [
+      {
+        "command": "LoadResource",
+        "expressionPath": "\"/CultureEn.json\"",
+        "variableName": "culture"
+      },
+      {
+        "command": "Launch",
+        "expressionCulture": "^culture",
+        "expressionIcon": "\"quiz-color.svg\"",
+        "expressionMainMenu": "null",
+        "expressionSubTitle": "null",
+        "expressionTitle": "\"Quizzes Game\"",
+        "expressionToolsMenu": "null",
+        "search": "disable",
+        "uiComponentName": "CmpHome"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": [
+      {
+        "name": "culture",
+        "type": "Culture"
+      }
+    ]
+  }
+}

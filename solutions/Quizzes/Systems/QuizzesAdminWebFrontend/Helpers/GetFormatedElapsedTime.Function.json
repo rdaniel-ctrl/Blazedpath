@@ -1,0 +1,49 @@
+{
+  "algorithm": {
+    "parameters": [
+      {
+        "name": "msTotalTime",
+        "type": "integer"
+      }
+    ],
+    "statements": [
+      {
+        "command": "Set",
+        "expression": "\"-\"",
+        "variableName": "text"
+      },
+      {
+        "children": [
+          {
+            "command": "Set",
+            "expression": "msTotalTime / 1000",
+            "variableName": "elapsedTimeInSeconds"
+          },
+          {
+            "command": "Set",
+            "expression": "Concat(ConvertToString(elapsedTimeInSeconds), \" s\")",
+            "variableName": "text"
+          }
+        ],
+        "command": "If",
+        "expression": "IsNotNull(msTotalTime)"
+      },
+      {
+        "command": "Return",
+        "expression": "text"
+      }
+    ],
+    "typeReturn": "string",
+    "variables": [
+      {
+        "name": "text",
+        "type": "string"
+      },
+      {
+        "name": "elapsedTimeInSeconds",
+        "type": "decimal"
+      }
+    ]
+  },
+  "routing": null
+}
