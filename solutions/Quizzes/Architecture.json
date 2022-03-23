@@ -13,10 +13,10 @@
       "y": 187
     },
     {
-      "name": "QuizzesGameMobileApp",
-      "type": "MobileApp",
-      "x": 167,
-      "y": 94
+      "name": "QuizzesGameWebApp",
+      "type": "WebFrontend",
+      "x": 194,
+      "y": 50
     },
     {
       "name": "QuizzesMicroservice",
@@ -31,7 +31,7 @@
       "toSystemName": "QuizzesMicroservice"
     },
     {
-      "fromSystemName": "QuizzesGameMobileApp",
+      "fromSystemName": "QuizzesGameWebApp",
       "toSystemName": "QuizzesMicroservice"
     },
     {

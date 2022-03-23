@@ -1,0 +1,22 @@
+[
+  {
+    "topicId":"GeneralKnowledge",
+    "name":"General Knowledge"
+  },
+  {
+    "topicId":"ScienceAndNature",
+    "name":"Science And Nature"
+  },
+  {
+    "topicId":"Sports",
+    "name":"Sports"
+  },
+  {
+  	"topicId":"History",
+    "name":"History"
+  },
+  {
+    "topicId":"Entertainment",
+    "name":"Entertainment"
+  }
+]

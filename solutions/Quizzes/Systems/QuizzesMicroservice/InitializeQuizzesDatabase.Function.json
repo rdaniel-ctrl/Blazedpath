@@ -1,0 +1,89 @@
+{
+  "algorithm": {
+    "parameters": [],
+    "statements": [
+      {
+        "command": "Set",
+        "expression": "ListTopics(null)",
+        "variableName": "topics"
+      },
+      {
+        "children": [
+          {
+            "command": "Return",
+            "expression": "null"
+          }
+        ],
+        "command": "If",
+        "expression": "IsNull(topics) && Count(topics) > 0"
+      },
+      {
+        "command": "LoadResource",
+        "expressionPath": "\"/DefaultQuizzes.json\"",
+        "variableName": "quizzes"
+      },
+      {
+        "command": "LoadResource",
+        "expressionPath": "\"/DefaultTopics.json\"",
+        "variableName": "topics"
+      },
+      {
+        "command": "Set",
+        "expression": "[]",
+        "variableName": "topicIds"
+      },
+      {
+        "children": [
+          {
+            "command": "Push",
+            "expressionItem": "[ConvertToString(topic.topicId),CreateTopic(topic)]",
+            "variableNameList": "topicIds"
+          }
+        ],
+        "command": "ForEach",
+        "expressionList": "topics",
+        "variableNameItem": "topic"
+      },
+      {
+        "children": [
+          {
+            "command": "Set",
+            "expression": "FindFirst(topicIds,First(This()) == ConvertToString(^quiz.topicId))[1]",
+            "variableName": "quiz.topicId"
+          },
+          {
+            "command": "Execute",
+            "expression": "CreateQuiz(quiz)"
+          }
+        ],
+        "command": "ForEach",
+        "expressionList": "quizzes",
+        "variableNameItem": "quiz"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": [
+      {
+        "name": "topics",
+        "type": "list(Topic)"
+      },
+      {
+        "name": "quizzes",
+        "type": "list(Quiz)"
+      },
+      {
+        "name": "topicIds",
+        "type": "list(tuple(string,integer))"
+      },
+      {
+        "name": "topic",
+        "type": "Topic"
+      },
+      {
+        "name": "quiz",
+        "type": "Quiz"
+      }
+    ]
+  },
+  "routing": null
+}

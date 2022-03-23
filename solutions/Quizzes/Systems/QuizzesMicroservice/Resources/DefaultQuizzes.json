@@ -1,0 +1,2252 @@
+[
+    {
+        "topicId": "History",
+        "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+        "answer1": "Silver",
+        "answer2": "Gold",
+        "answer3": "Juno",
+        "answer4": "Sword",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+        "answer1": "1969",
+        "answer2": "1965",
+        "answer3": "1966",
+        "answer4": "1973",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "What was William Frederick Cody better known as?",
+        "answer1": "Billy the Kid",
+        "answer2": "Buffalo Bill",
+        "answer3": "Wild Bill Hickok",
+        "answer4": "Pawnee Bill",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "Which German field marshal was known as the `Desert Fox`?",
+        "answer1": "Erwin Rommel",
+        "answer2": "Ernst Busch",
+        "answer3": "Wolfram Freiherr von Richthofen",
+        "answer4": "Wilhelm List",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "Joseph Smith was the founder of what religion?",
+        "answer1": "Buddhism",
+        "answer2": "Christianity",
+        "answer3": "Mormonism",
+        "answer4": "Hinduism",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "America's Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+        "answer1": "Jaws",
+        "answer2": "Blade Runner",
+        "answer3": "Star Wars",
+        "answer4": "Alien",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "Which of his six wives was Henry VIII married to the longest?",
+        "answer1": "Anne Boleyn",
+        "answer2": "Catherine of Aragon",
+        "answer3": "Jane Seymour",
+        "answer4": "Catherine Parr",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "When did Spanish Peninsular War start?",
+        "answer1": "1806",
+        "answer2": "1810",
+        "answer3": "1809",
+        "answer4": "1808",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "When did Jamaica recieve its independence from England? ",
+        "answer1": "1962",
+        "answer2": "1492",
+        "answer3": "1963",
+        "answer4": "1987",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+        "answer1": "Battle of Thessalonica",
+        "answer2": "Battle of Pollentia",
+        "answer3": "Battle of Constantinople",
+        "answer4": "Battle of Adrianople",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?",
+        "answer1": "1%",
+        "answer2": "3%",
+        "answer3": "<1%",
+        "answer4": "5%",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+        "answer1": "Shalmaneser V",
+        "answer2": "Esharhaddon",
+        "answer3": "Shamshi-Adad III",
+        "answer4": "Ashur-nasir-pal II",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "What was Manfred von Richthofen's nickname?",
+        "answer1": "The High Flying Ace",
+        "answer2": "The Red Baron",
+        "answer3": "The Blue Serpent ",
+        "answer4": "The Germany Gunner",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "On which day did the attempted coup d'etat of 1991 in the Soviet Union begin?",
+        "answer1": "August 19",
+        "answer2": "August 21",
+        "answer3": "December 26",
+        "answer4": "December 24",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "Which of these countries was NOT a part of the Soviet Union?",
+        "answer1": "Afghanistan",
+        "answer2": "Turkmenistan",
+        "answer3": "Kazakhstan",
+        "answer4": "Uzbekistan",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "In the War of the Pacific (1879 - 1883), Bolivia lost its access to the Pacific Ocean after being defeated by which South American country?",
+        "answer1": "Chile",
+        "answer2": "Peru",
+        "answer3": "Brazil",
+        "answer4": "Argentina",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "When did Canada leave the confederation to become their own nation?",
+        "answer1": "July 1st, 1763",
+        "answer2": "July 1st, 1832",
+        "answer3": "July 1st, 1902",
+        "answer4": "July 1st, 1867",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "When did the Battle of the Somme begin?",
+        "answer1": "July 1st, 1916",
+        "answer2": "August 1st, 1916",
+        "answer3": "July 2nd, 1916",
+        "answer4": "June 30th, 1916",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "When did the Battle of the Bulge end?",
+        "answer1": "August 6, 1945",
+        "answer2": "December 7, 1941",
+        "answer3": "January 25, 1945",
+        "answer4": "December 16, 1944",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "In what year did the North American Video Game Crash occur?",
+        "answer1": "1982",
+        "answer2": "1993",
+        "answer3": "1970",
+        "answer4": "1983",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "Which one of these rulers did not belong to the Habsburg dynasty?",
+        "answer1": "Charles V",
+        "answer2": "Philip V",
+        "answer3": "Philip II",
+        "answer4": "Francis Joseph",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "Who was the first president of the United States?",
+        "answer1": "James Madison",
+        "answer2": "George Washington",
+        "answer3": "Thomas Jefferson",
+        "answer4": "James K. Polk",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?",
+        "answer1": "Italia",
+        "answer2": "Gallia",
+        "answer3": "Hispania ",
+        "answer4": "Asia",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "Joseph Stalin had a criminal past doing what?",
+        "answer1": "Murder for Hire",
+        "answer2": "Tax Evasion",
+        "answer3": "Identity Fraud",
+        "answer4": "Robbing Trains",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "What nationality was sultan Saladin?",
+        "answer1": "Arab",
+        "answer2": "Egyptian",
+        "answer3": "Kurdish",
+        "answer4": "Syrian",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "What is the oldest US state?",
+        "answer1": "Rhode Island",
+        "answer2": "Maine",
+        "answer3": "Delaware",
+        "answer4": "Virginia",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "What is the bloodiest event in United States history, in terms of casualties?",
+        "answer1": "Pearl Harbor",
+        "answer2": "September 11th",
+        "answer3": "D-Day",
+        "answer4": "Battle of Antietam",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "Which Nation DID NOT have a Colony in Modern-day America?",
+        "answer1": "Portugal",
+        "answer2": "Spain",
+        "answer3": "Sweden",
+        "answer4": "Netherlands",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "Which American civilization is the source of the belief that the world would end or drastically change on December 21st, 2012?",
+        "answer1": "The Mayans",
+        "answer2": "The Incas",
+        "answer3": "The Aztecs",
+        "answer4": "The Navajos",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "Which historical conflict killed the most people?",
+        "answer1": "Taiping Rebellion",
+        "answer2": "Three Kingdoms War",
+        "answer3": "World War II",
+        "answer4": "Mongol conquests",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "Which of the following countries was not an axis power during World War II?",
+        "answer1": " Soviet Union",
+        "answer2": "Italy",
+        "answer3": "Germany",
+        "answer4": "Japan",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "Who was the leader of the Communist Party of Yugoslavia ?",
+        "answer1": "Karadjordje Petrovic",
+        "answer2": "Milos Obilic",
+        "answer3": "Aleskandar Petrovic",
+        "answer4": "Josip Broz Tito",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "In what year did Kentucky become the 15th state to join the union?",
+        "answer1": "1792",
+        "answer2": "1782",
+        "answer3": "1798",
+        "answer4": "1788",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "Which of the following countries was the first to send an object into space?",
+        "answer1": "USA",
+        "answer2": "Germany",
+        "answer3": "Russia",
+        "answer4": "China",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "These two countries held a commonwealth from the 16th to 18th century.",
+        "answer1": "Hutu and Rwanda",
+        "answer2": "Poland and Lithuania",
+        "answer3": "North Korea and South Korea",
+        "answer4": "Bangladesh and Bhutan",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "How old was Adolf Hitler when he died?",
+        "answer1": "43",
+        "answer2": "65",
+        "answer3": "47",
+        "answer4": "56",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "Which country was Josef Stalin born in?",
+        "answer1": "Georgia",
+        "answer2": "Russia",
+        "answer3": "Germany",
+        "answer4": "Poland",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "Who led the Communist Revolution of Russia?",
+        "answer1": "Joseph Stalin",
+        "answer2": "Vladimir Lenin",
+        "answer3": "Vladimir Putin",
+        "answer4": "Mikhail Gorbachev",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "Which of these 1900s tanks were designed and built BEFORE the others?",
+        "answer1": "M4 Sherman",
+        "answer2": " Panzer IV",
+        "answer3": "Renault FT",
+        "answer4": "Cromwell ",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "Which countries participated in the Lobster War?",
+        "answer1": "Canada and Norway",
+        "answer2": "Australia and New Zealand",
+        "answer3": "France and Brazil",
+        "answer4": "United States and England",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "Who was the first man to travel into outer space twice?",
+        "answer1": "Vladimir Komarov",
+        "answer2": "Charles Conrad",
+        "answer3": "Yuri Gagarin",
+        "answer4": "Gus Grissom",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+        "answer1": "1726",
+        "answer2": "1727",
+        "answer3": "1721",
+        "answer4": "1724",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "Who was the last Roman emperor in the Year of Four Emperors (69 AD)?",
+        "answer1": "Vitellius",
+        "answer2": "Otho",
+        "answer3": "Vespasian",
+        "answer4": "Galba",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?",
+        "answer1": "George Washington",
+        "answer2": "Abraham Lincoln",
+        "answer3": "Thomas Jefferson",
+        "answer4": "James Monroe",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "After the 1516 Battle of Marj Dabiq, the Ottoman Empire took control of Jerusalem from which sultanate?",
+        "answer1": "Ayyubid",
+        "answer2": "Ummayyad",
+        "answer3": "Seljuq",
+        "answer4": "Mamluk",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "History",
+        "question": "The coat of arms of the King of Spain contains the arms from the monarchs of Castille, Leon, Aragon and which other former Iberian kingdom?",
+        "answer1": "Galicia",
+        "answer2": "Granada",
+        "answer3": "Navarre",
+        "answer4": "Catalonia",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "The ontological argument for the proof of God's existence is first attributed to whom?",
+        "answer1": "Anselm of Canterbury",
+        "answer2": "René Descartes",
+        "answer3": "Immanuel Kant",
+        "answer4": "Aristotle",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "History",
+        "question": "The Thirty Years War ended with which treaty?",
+        "answer1": "Treaty of Versailles",
+        "answer2": "Treaty of Paris",
+        "answer3": "Peace of Westphalia",
+        "answer4": "Peace of Prague",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "History",
+        "question": "What was the name of the chemical that was dropped on Vietnam during the Vietnam war?",
+        "answer1": "Phosgene",
+        "answer2": "Agent Orange",
+        "answer3": "Mustard Gas",
+        "answer4": "Hydrogen Cyanide",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "History",
+        "question": "Who is the creator of the soft drink, Dr. Pepper?",
+        "answer1": "James Wellington",
+        "answer2": "Johnson Hinsin",
+        "answer3": "Charles Alderton",
+        "answer4": "Boris Heviltik",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is considered the rarist form of color blindness?",
+        "answer1": "Red",
+        "answer2": "Blue",
+        "answer3": "Green",
+        "answer4": "Purple",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Along with Oxygen, which element is primarily responsible for the sky appearing blue?",
+        "answer1": "Nitrogen",
+        "answer2": "Helium",
+        "answer3": "Carbon",
+        "answer4": "Hydrogen",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which of these bones is hardest to break?",
+        "answer1": "Cranium",
+        "answer2": "Humerus",
+        "answer3": "Tibia",
+        "answer4": "Femur",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "How many objects are equivalent to one mole?",
+        "answer1": "6.002 x 10^22",
+        "answer2": "6.022 x 10^22",
+        "answer3": "6.002 x 10^23",
+        "answer4": "6.022 x 10^23",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What does the letter 'S' stand for in 'NASA'?",
+        "answer1": "Space",
+        "answer2": "Science",
+        "answer3": "Society",
+        "answer4": "Star",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which is the longest bone in the human body? ",
+        "answer1": "Femur",
+        "answer2": "Scapula",
+        "answer3": "Fibula",
+        "answer4": "Ulna",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "How many planets are in our Solar System?",
+        "answer1": "Nine",
+        "answer2": "Eight",
+        "answer3": "Seven",
+        "answer4": "Ten",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is the hottest planet in the Solar System?",
+        "answer1": "Mars",
+        "answer2": "Mercury",
+        "answer3": "Jupiter",
+        "answer4": "Venus",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What common name is given to the medial condition, tibial stress syndrome (MTSS)?",
+        "answer1": "Shin Splints",
+        "answer2": "Tennis Elbow",
+        "answer3": "Carpal Tunnel",
+        "answer4": "Housemaid's Knee",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which gas forms about 78% of the Earth’s atmosphere?",
+        "answer1": "Oxygen",
+        "answer2": "Nitrogen",
+        "answer3": "Argon",
+        "answer4": "Carbon Dioxide",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is the molecular formula of Glucose?",
+        "answer1": "C6H12O6",
+        "answer2": "C2H4O2",
+        "answer3": "K+",
+        "answer4": "CH4",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which element has the atomic number of 7?",
+        "answer1": "Oxygen",
+        "answer2": "Nitrogen",
+        "answer3": "Hydrogen",
+        "answer4": "Neon",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Au on the Periodic Table refers to which element?",
+        "answer1": "Silver",
+        "answer2": "Oxygen",
+        "answer3": "Gold",
+        "answer4": "Nickel",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which of the following blood vessels carries deoxygenated blood?",
+        "answer1": "Pulmonary Vein",
+        "answer2": "Aorta",
+        "answer3": "Coronary Artery",
+        "answer4": "Pulmonary Artery",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.",
+        "answer1": "low, some",
+        "answer2": "high, all",
+        "answer3": "high, some",
+        "answer4": "low, all",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is the chemical makeup of water?",
+        "answer1": "H20",
+        "answer2": "C12H6O2",
+        "answer3": "CO2",
+        "answer4": "H",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Alzheimer's disease primarily affects which part of the human body?",
+        "answer1": "Brain",
+        "answer2": "Lungs",
+        "answer3": "Skin",
+        "answer4": "Heart",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is isobutylphenylpropanoic acid more commonly known as?",
+        "answer1": "Morphine",
+        "answer2": "Ketamine",
+        "answer3": "Aspirin",
+        "answer4": "Ibuprofen",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is the scientific name of the red fox?",
+        "answer1": "Vulpes Redus",
+        "answer2": "Red Fox",
+        "answer3": "Vulpes Vulpes",
+        "answer4": "Vulpes Vulpie",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which is not a type of neuron?",
+        "answer1": "Sensory Neuron",
+        "answer2": "Motor Neuron",
+        "answer3": "Perceptual Neuron",
+        "answer4": "Interneuron",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What polymer is used to make CDs, safety goggles and riot shields?",
+        "answer1": "Polycarbonate",
+        "answer2": "Rubber",
+        "answer3": "Nylon",
+        "answer4": "Bakelite",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "The medical condition osteoporosis affects which part of the body?",
+        "answer1": "Skin",
+        "answer2": "Bones",
+        "answer3": "Brain",
+        "answer4": "Heart",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which of these is NOT a part of the structure of a typical neuron?",
+        "answer1": "Node of Ranvier",
+        "answer2": "Schwann cell",
+        "answer3": "Myelin sheath",
+        "answer4": "Islets of Langerhans",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "After which Danish city is the 72th element on the periodic table named?",
+        "answer1": "Copenhagen",
+        "answer2": "Odense",
+        "answer3": "Herning",
+        "answer4": "Skagen",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What does the yellow diamond on the NFPA 704 fire diamond represent?",
+        "answer1": "Health",
+        "answer2": "Flammability",
+        "answer3": "Reactivity",
+        "answer4": "Radioactivity",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "The element involved in making human blood red is which of the following?",
+        "answer1": "Copper",
+        "answer2": "Iron",
+        "answer3": "Iridium",
+        "answer4": "Cobalt",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Human cells typically have how many copies of each gene?",
+        "answer1": "2",
+        "answer2": "1",
+        "answer3": "4",
+        "answer4": "3",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Myopia is the scientific term for which condition?",
+        "answer1": "Farsightedness",
+        "answer2": "Shortsightedness",
+        "answer3": "Double Vision",
+        "answer4": "Clouded Vision",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is the molecular formula of Ozone?",
+        "answer1": "C6H2O6",
+        "answer2": "N2O",
+        "answer3": "O3",
+        "answer4": "SO4",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is:",
+        "answer1": "The overall size",
+        "answer2": "The presence or absence of a nucleus",
+        "answer3": "The presence or absence of certain organelles",
+        "answer4": "The mode of reproduction",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which of the following plastic is commonly used for window frames, gutters and drain pipes?",
+        "answer1": "Polyethylene (PE)",
+        "answer2": "Polypropylene (PP)",
+        "answer3": "Polyvinylchloride (PVC) ",
+        "answer4": "Polystyrene (PS)",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What stage of development do the majority of eukaryotic cells remain in for most of their life?",
+        "answer1": "Prophase",
+        "answer2": "Interphase",
+        "answer3": "Stasis",
+        "answer4": "Telophase",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What element on the periodic table has 92 electrons?",
+        "answer1": "Sulfur",
+        "answer2": "Hydrogen",
+        "answer3": "Iron",
+        "answer4": "Uranium",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What does the term \"isolation\" refer to in microbiology?",
+        "answer1": "A lack of nutrition in microenviroments",
+        "answer2": "The nitrogen level in soil",
+        "answer3": "The separation of a strain from a natural, mixed population of living microbes",
+        "answer4": "Testing effects of certain microorganisms in an isolated enviroments, such as caves",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is the unit of electrical inductance?",
+        "answer1": "Weber",
+        "answer2": "Henry",
+        "answer3": "Coulomb",
+        "answer4": "Mho",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which desert is the only desert in the world where the \"Saguaro\" cactus grows indigenously?",
+        "answer1": "The Gobi Desert",
+        "answer2": "The Yuma Desert",
+        "answer3": "The Arabian Desert",
+        "answer4": "The Sonoran Desert",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "How long is a light-year?",
+        "answer1": "1 AU",
+        "answer2": "105.40 Earth-years",
+        "answer3": "501.2 Million Miles",
+        "answer4": "9.461 Trillion Kilometres",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Approximately how long is a year on Uranus?",
+        "answer1": "47 Earth years",
+        "answer2": "84 Earth years",
+        "answer3": "62 Earth years",
+        "answer4": "109 Earth years",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Coulrophobia is the irrational fear of what?",
+        "answer1": "Clowns",
+        "answer2": "Cemeteries",
+        "answer3": "Needles",
+        "answer4": "Tunnels",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is \"Stenoma\"?",
+        "answer1": "A combat stimulant from WW2",
+        "answer2": "A genus of moths",
+        "answer3": "A type of seasoning",
+        "answer4": "A port city in the carribean",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "In human biology, a circadium rhythm relates to a period of roughly how many hours?",
+        "answer1": "8",
+        "answer2": "16",
+        "answer3": "24",
+        "answer4": "32",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "The medial meniscus forms which part of what joint in the human body?",
+        "answer1": "Elbow",
+        "answer2": "Ankle",
+        "answer3": "Knee",
+        "answer4": "Shoulder",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is the official name of the star located closest to the North Celestial Pole?",
+        "answer1": "Polaris",
+        "answer2": "Eridanus",
+        "answer3": "Gamma Cephei",
+        "answer4": "Iota Cephei",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What is the Linnean name of the domestic apple tree?",
+        "answer1": "Malus americana",
+        "answer2": "Malus pumila",
+        "answer3": "Pomus domestica",
+        "answer4": "Appelus delectica",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which of the following spacecraft never touched the moon?",
+        "answer1": "Apollo 11",
+        "answer2": "Mariner 4",
+        "answer3": "Luna 2",
+        "answer4": "SMART-1",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which color cannot be produced in Roses, even through genetic alteration?",
+        "answer1": "Blue",
+        "answer2": "Black",
+        "answer3": "Orange",
+        "answer4": "Brown",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "Which of the following is a major muscle of the back?",
+        "answer1": "Trapezius",
+        "answer2": "Trapezium",
+        "answer3": "Trapezoid",
+        "answer4": "Triquetrum",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "What are the smallest blood vessels in the human body?",
+        "answer1": "Capillaries",
+        "answer2": "Arterioles",
+        "answer3": "Veinules",
+        "answer4": "Lymphatics",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "In the Scoville scale, what is the hottest chemical?",
+        "answer1": "Capsaicin",
+        "answer2": "Resiniferatoxin",
+        "answer3": "Dihydrocapsaicin",
+        "answer4": "Tinyatoxin",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "ScienceAndNature",
+        "question": "When the Falcon Heavy was launched on it's test flight, what was the only part of the operation that failed?",
+        "answer1": "Side Booster Landing",
+        "answer2": "Deployment of Starman",
+        "answer3": "Center Core Landing",
+        "answer4": "Ignition and Liftoff",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+        "answer1": "Alan Sugar",
+        "answer2": "Richard Branson",
+        "answer3": "Donald Trump",
+        "answer4": "Bill Gates",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What is the world's most expensive spice by weight?",
+        "answer1": "Cinnamon",
+        "answer2": "Saffron",
+        "answer3": "Cardamom",
+        "answer4": "Vanilla",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which company did Valve cooperate with in the creation of the Vive?",
+        "answer1": "Oculus",
+        "answer2": "HTC",
+        "answer3": "Google",
+        "answer4": "Razer",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "A doctor with a PhD is a doctor of what?",
+        "answer1": "Philosophy",
+        "answer2": "Psychology",
+        "answer3": "Phrenology",
+        "answer4": "Physical Therapy",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Area 51 is located in which US state?",
+        "answer1": "Arizona",
+        "answer2": "Nevada",
+        "answer3": "New Mexico",
+        "answer4": "Utah",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "How would one say goodbye in Spanish?",
+        "answer1": " Hola",
+        "answer2": "Au Revoir",
+        "answer3": "Salir",
+        "answer4": "Adiós",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which sign of the zodiac is represented by the Crab?",
+        "answer1": "Libra",
+        "answer2": "Virgo",
+        "answer3": "Cancer",
+        "answer4": "Sagittarius",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "On a dartboard, what number is directly opposite No. 1?",
+        "answer1": "20",
+        "answer2": "12",
+        "answer3": "19",
+        "answer4": "15",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which essential condiment is also known as Japanese horseradish?",
+        "answer1": "Mentsuyu",
+        "answer2": "Karashi",
+        "answer3": "Wasabi ",
+        "answer4": "Ponzu",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What geometric shape is generally used for stop signs?",
+        "answer1": "Hexagon",
+        "answer2": "Circle",
+        "answer3": "Triangle",
+        "answer4": "Octagon",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "The words \"bungalow\" and \"shampoo\" originate from the languages of which country?",
+        "answer1": "India",
+        "answer2": "Papua New Guinea",
+        "answer3": "Ethiopia",
+        "answer4": "China",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What is the shape of the toy invented by Hungarian professor Ernő Rubik?",
+        "answer1": "Sphere",
+        "answer2": "Cylinder",
+        "answer3": "Cube",
+        "answer4": "Pyramid",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "When was \"YouTube\" founded?",
+        "answer1": "May 22, 2004",
+        "answer2": "February 14, 2005",
+        "answer3": "September 12, 2005",
+        "answer4": "July 19, 2009",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What type of animal was Harambe, who was shot after a child fell into it's enclosure at the Cincinnati Zoo?",
+        "answer1": "Tiger",
+        "answer2": "Panda",
+        "answer3": "Crocodile",
+        "answer4": "Gorilla",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which film star has his statue in Leicester Square?",
+        "answer1": "Paul Newman",
+        "answer2": "Rowan Atkinson ",
+        "answer3": "Charlie Chaplin",
+        "answer4": "Alfred Hitchcock",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "After how many years would you celebrate your crystal anniversary?",
+        "answer1": "15",
+        "answer2": "20",
+        "answer3": "10",
+        "answer4": "25",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which of the following is not another name for the eggplant?",
+        "answer1": "Brinjal",
+        "answer2": "Guinea Squash",
+        "answer3": "Potimarron",
+        "answer4": "Melongene",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which of the following chemicals are found in eggplant seeds?",
+        "answer1": "Mescaline",
+        "answer2": "Cyanide",
+        "answer3": "Psilocybin",
+        "answer4": "Nicotine",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What was the destination of the missing flight MH370?",
+        "answer1": "Beijing",
+        "answer2": "Kuala Lumpur",
+        "answer3": "Singapore",
+        "answer4": "Tokyo",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "A factiod is what?",
+        "answer1": "Useless trivia",
+        "answer2": "A falsehood",
+        "answer3": "A tiny fact",
+        "answer4": "A scientific figure",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Sciophobia is the fear of what?",
+        "answer1": "Eating",
+        "answer2": "Bright lights",
+        "answer3": "Shadows",
+        "answer4": "Transportation",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?",
+        "answer1": "Noah's Ark",
+        "answer2": "Spruce Goose",
+        "answer3": "Fat Man",
+        "answer4": "Trojan Horse",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
+        "answer1": "United States of America",
+        "answer2": "Soviet Union",
+        "answer3": "Poland",
+        "answer4": "India",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What is the last letter of the Greek alphabet?",
+        "answer1": "Omega",
+        "answer2": "Mu",
+        "answer3": "Epsilon",
+        "answer4": "Kappa",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Amsterdam Centraal station is twinned with what station?",
+        "answer1": "Frankfurt (Main) Hauptbahnhof",
+        "answer2": "Paris Gare du Nord",
+        "answer3": "London Liverpool Street",
+        "answer4": "Brussels Midi",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "How many calories are in a 355 ml can of Pepsi Cola?",
+        "answer1": "200",
+        "answer2": "100",
+        "answer3": "155",
+        "answer4": "150",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What year was Apple Inc. founded?",
+        "answer1": "1978",
+        "answer2": "1980",
+        "answer3": "1974",
+        "answer4": "1976",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What was Mountain Dew's original slogan?",
+        "answer1": "Yahoo! Mountain Dew... It'll tickle your innards!",
+        "answer2": "Give Me A Dew",
+        "answer3": "Do The Dew",
+        "answer4": "Get' that barefoot feelin' drinkin' Mountain Dew",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a \"Guardians of the Galaxy\" themed ride?",
+        "answer1": "The Haunted Mansion",
+        "answer2": "Pirates of the Caribbean",
+        "answer3": "Peter Pan's Flight",
+        "answer4": "Twilight Zone Tower of Terror",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Who invented Pastafarianism?",
+        "answer1": "Bobby Henderson",
+        "answer2": "Eric Tignor",
+        "answer3": "Bill Nye",
+        "answer4": "Zach Soldi",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Apple co-founder Steve Jobs died from complications of which form of cancer?",
+        "answer1": "Bone",
+        "answer2": "Liver",
+        "answer3": "Pancreatic",
+        "answer4": "Stomach",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?",
+        "answer1": "Toshiba",
+        "answer2": "Hewlett-Packard",
+        "answer3": "Asus",
+        "answer4": "Dell",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Who founded the Khan Academy?",
+        "answer1": "Ben Khan",
+        "answer2": "Kitt Khan",
+        "answer3": "Sal Khan",
+        "answer4": "Adel Khan",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which sign of the zodiac comes between Virgo and Scorpio?",
+        "answer1": "Libra",
+        "answer2": "Gemini",
+        "answer3": "Taurus",
+        "answer4": "Capricorn",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Chartreuse is a color between yellow and what?",
+        "answer1": "Red",
+        "answer2": "Black",
+        "answer3": "Purple",
+        "answer4": "Green",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which item of clothing is usually worn by a Scotsman at a wedding?",
+        "answer1": "Skirt",
+        "answer2": "Dress",
+        "answer3": "Rhobes",
+        "answer4": "Kilt",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which country drives on the left side of the road?",
+        "answer1": "Japan",
+        "answer2": "Germany",
+        "answer3": "Russia",
+        "answer4": "China",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Nephelococcygia is the practice of doing what?",
+        "answer1": "Finding shapes in clouds",
+        "answer2": "Sleeping with your eyes open",
+        "answer3": "Breaking glass with your voice",
+        "answer4": "Swimming in freezing water",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which country has the most Trappist breweries?",
+        "answer1": "Netherlands",
+        "answer2": "France",
+        "answer3": "USA",
+        "answer4": "Belgium",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "The likeness of which president is featured on the rare $2 bill of USA currency?",
+        "answer1": "Martin Van Buren",
+        "answer2": "Thomas Jefferson",
+        "answer3": "Ulysses Grant",
+        "answer4": "John Quincy Adams",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What is the star sign of someone born on Valentines day?",
+        "answer1": "Pisces",
+        "answer2": "Aquarius",
+        "answer3": "Capricorn",
+        "answer4": "Scorpio",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "If you planted the seeds of Quercus robur, what would grow?",
+        "answer1": "Grains",
+        "answer2": "Vegetables",
+        "answer3": "Trees",
+        "answer4": "Flowers",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "A statue of Charles Darwin sits in what London museum?",
+        "answer1": "Tate",
+        "answer2": "British Museum",
+        "answer3": "Natural History Museum",
+        "answer4": "Science Museum",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "When one is \"envious\", they are said to be what color?",
+        "answer1": "Red",
+        "answer2": "Blue",
+        "answer3": "Green",
+        "answer4": "Yellow",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+        "answer1": "30 Pounds",
+        "answer2": "40 Pounds",
+        "answer3": "35 Pounds",
+        "answer4": "32.50 Pounds",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "The word \"astasia\" means which of the following?",
+        "answer1": "The inability to make decisions",
+        "answer2": "The inability to stand up",
+        "answer3": "The inability to concentrate on anything",
+        "answer4": "A feverish desire to rip one's clothes off",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "The word \"aprosexia\" means which of the following?",
+        "answer1": "The inability to make decisions",
+        "answer2": "The inability to concentrate on anything",
+        "answer3": "A feverish desire to rip one's clothes off",
+        "answer4": "The inability to stand up",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "The Canadian $1 coin is colloquially known as a what?",
+        "answer1": "Loonie",
+        "answer2": "Boolie",
+        "answer3": "Foolie",
+        "answer4": "Moodie",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "The drug cartel run by Pablo Escobar originated in which South American city?",
+        "answer1": "Bogotá",
+        "answer2": "Quito",
+        "answer3": "Cali",
+        "answer4": "Medellín",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "GeneralKnowledge",
+        "question": "Which logical fallacy means to attack the character of your opponent rather than their arguments?",
+        "answer1": "Post hoc ergo propter hoc",
+        "answer2": "Ad hominem",
+        "answer3": "Tu quoque",
+        "answer4": "Argumentum ad populum",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which German sportswear company's logo is the 'Formstripe'?",
+        "answer1": "Nike",
+        "answer2": "Adidas",
+        "answer3": "Reebok",
+        "answer4": "Puma",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+        "answer1": "Wrench",
+        "answer2": "Drill",
+        "answer3": "Screwdriver",
+        "answer4": "Hammer",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "In golf, what name is given to a hole score of two under par?",
+        "answer1": "Eagle",
+        "answer2": "Birdie",
+        "answer3": "Bogey",
+        "answer4": "Albatross",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Sports",
+        "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+        "answer1": "Duck",
+        "answer2": "Bye",
+        "answer3": "Beamer",
+        "answer4": "Carry",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who was the British professional wrestler Shirley Crabtree better known as?",
+        "answer1": "Big Daddy",
+        "answer2": "Giant Haystacks",
+        "answer3": "Kendo Nagasaki",
+        "answer4": "Masambula",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Sports",
+        "question": "In what sport is a \"shuttlecock\" used?",
+        "answer1": "Table Tennis",
+        "answer2": "Rugby",
+        "answer3": "Badminton",
+        "answer4": "Cricket",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which Formula One driver was nicknamed 'The Professor'?",
+        "answer1": "Ayrton Senna",
+        "answer2": "Niki Lauda",
+        "answer3": "Emerson Fittipaldi",
+        "answer4": "Alain Prost",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "In a game of snooker, what colour ball is worth 3 points?",
+        "answer1": "Yellow",
+        "answer2": "Brown",
+        "answer3": "Green",
+        "answer4": "Blue",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "With which doubles partner did John McEnroe have most success?",
+        "answer1": "Mark Woodforde",
+        "answer2": "Michael Stich",
+        "answer3": "Mary Carillo",
+        "answer4": "Peter Fleming",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "In baseball, how many fouls are an out?",
+        "answer1": "5",
+        "answer2": "3",
+        "answer3": "2",
+        "answer4": "0",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "The Rio 2016 Summer Olympics held it's closing ceremony on what date?",
+        "answer1": "August 23",
+        "answer2": "August 19",
+        "answer3": "August 21",
+        "answer4": "August 17",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which country has hosted the 2018 FIFA World Cup?",
+        "answer1": "Germany",
+        "answer2": "United States",
+        "answer3": "Saudi Arabia",
+        "answer4": "Russia",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who won the 2015 Formula 1 World Championship?",
+        "answer1": "Nico Rosberg",
+        "answer2": "Sebastian Vettel",
+        "answer3": "Lewis Hamilton",
+        "answer4": "Jenson Button",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+        "answer1": "0 - 1",
+        "answer2": "7 - 1",
+        "answer3": "3 - 4",
+        "answer4": "16 - 0",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Where was the Games of the XXII Olympiad held?",
+        "answer1": "Barcelona",
+        "answer2": "Tokyo",
+        "answer3": "Los Angeles",
+        "answer4": "Moscow",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+        "answer1": "Pelle",
+        "answer2": "Insigne",
+        "answer3": "Barzagli",
+        "answer4": "Giaccherini",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which soccer team won the Copa América 2015 Championship ?",
+        "answer1": "Argentina",
+        "answer2": "Brazil",
+        "answer3": "Chile",
+        "answer4": "Paraguay",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which soccer team won the Copa América Centenario 2016?",
+        "answer1": "Argentina",
+        "answer2": "Chile",
+        "answer3": "Brazil",
+        "answer4": "Colombia",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which team won 2014 FIFA World Cup in Brazil?",
+        "answer1": "Argentina",
+        "answer2": "Brazil",
+        "answer3": "Netherlands",
+        "answer4": "Germany",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "How many points did LeBron James score in his first NBA game?",
+        "answer1": "19",
+        "answer2": "69",
+        "answer3": "41",
+        "answer4": "25",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who won the 2016 Formula 1 World Driver's Championship?",
+        "answer1": "Lewis Hamilton",
+        "answer2": "Max Verstappen",
+        "answer3": "Kimi Raikkonen",
+        "answer4": "Nico Rosberg",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+        "answer1": "Quebec City",
+        "answer2": "Houston",
+        "answer3": "Montreal",
+        "answer4": "New York",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Sports",
+        "question": "What is the oldest team in the NFL?",
+        "answer1": "Arizona Cardinals",
+        "answer2": "Chicago Bears",
+        "answer3": "Green Bay Packers",
+        "answer4": "New York Giants",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Sports",
+        "question": "What year did the New Orleans Saints win the Super Bowl?",
+        "answer1": "2008",
+        "answer2": "2009",
+        "answer3": "2010",
+        "answer4": "2011",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "What is the exact length of one non-curved part in Lane 1 of an Olympic Track?",
+        "answer1": "84.39m",
+        "answer2": "100m",
+        "answer3": "100yd",
+        "answer4": "109.36yd",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Sports",
+        "question": "This Canadian television sportscaster is known for his \"Hockey Night in Canada\" role, a commentary show during hockey games.",
+        "answer1": "Don McKellar",
+        "answer2": "Don Cherry",
+        "answer3": "Don Taylor ",
+        "answer4": "Donald Sutherland",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who won the \"Champions League\" in 1999?",
+        "answer1": "Barcelona",
+        "answer2": "Manchester United",
+        "answer3": "Bayern Munich",
+        "answer4": "Liverpool",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who won the 2015 College Football Playoff (CFP) National Championship? ",
+        "answer1": "Alabama Crimson Tide",
+        "answer2": "Ohio State Buckeyes",
+        "answer3": "Clemson Tigers",
+        "answer4": "Wisconsin Badgers",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which year was the third Super Bowl held?",
+        "answer1": "1969",
+        "answer2": "1968",
+        "answer3": "1971",
+        "answer4": "1970",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Sports",
+        "question": "Why was The Green Monster at Fenway Park was originally built?",
+        "answer1": "To make getting home runs harder.",
+        "answer2": "To display advertisements.",
+        "answer3": "To provide extra seating.",
+        "answer4": "To prevent viewing games from outside the park.",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which sport is NOT traditionally played during the Mongolian Naadam festival?",
+        "answer1": "Wrestling",
+        "answer2": "Archery",
+        "answer3": "Horse-Racing",
+        "answer4": "American Football",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "When was the first official international game played?",
+        "answer1": "1880",
+        "answer2": "1863",
+        "answer3": "1872",
+        "answer4": "1865",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "What is the most common type of pitch thrown by pitchers in baseball?",
+        "answer1": "Slowball",
+        "answer2": "Screwball",
+        "answer3": "Fastball",
+        "answer4": "Palmball",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "What team did England beat to win in the 1966 World Cup final?",
+        "answer1": "Soviet Union",
+        "answer2": "Portugal",
+        "answer3": "West Germany",
+        "answer4": "Brazil",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+        "answer1": "West Germany",
+        "answer2": "Portugal",
+        "answer3": "Soviet Union",
+        "answer4": "Brazil",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "In bowling, what is the term used for getting three consecutive strikes?",
+        "answer1": "Flamingo",
+        "answer2": "Birdie",
+        "answer3": "Turkey",
+        "answer4": "Eagle",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who is often called \"the Maestro\" in the men's tennis circuit?",
+        "answer1": "Bill Tilden",
+        "answer2": "Boris Becker",
+        "answer3": "Roger Federer",
+        "answer4": "Pete Sampras",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which player holds the NHL record of 2,857 points?",
+        "answer1": "Mario Lemieux ",
+        "answer2": "Wayne Gretzky",
+        "answer3": "Sidney Crosby",
+        "answer4": "Gordie Howe",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who is Manchester United's leading appearance maker?",
+        "answer1": "David Beckham",
+        "answer2": "Ryan Giggs",
+        "answer3": "Wayne Rooney",
+        "answer4": "Eric Cantona",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which of the following player scored a hat-trick during their Manchester United debut?",
+        "answer1": "Cristiano Ronaldo",
+        "answer2": "Wayne Rooney",
+        "answer3": "Robin Van Persie",
+        "answer4": "David Beckham",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "When was the FC Schalke 04 founded?",
+        "answer1": "1909",
+        "answer2": "2008",
+        "answer3": "1999",
+        "answer4": "1904",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?",
+        "answer1": "Chris Benoit",
+        "answer2": "Owen Hart",
+        "answer3": "Lex Luger",
+        "answer4": "Al Snow",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who was the topscorer for England national football team?",
+        "answer1": "David Beckham",
+        "answer2": "Steven Gerrard",
+        "answer3": "Michael Owen",
+        "answer4": "Wayne Rooney",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which country will host the 2022 FIFA World Cup?",
+        "answer1": "USA",
+        "answer2": "Japan",
+        "answer3": "Switzerland",
+        "answer4": "Qatar",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Who won the 2017 Formula One World Drivers' Championship?",
+        "answer1": "Sebastian Vettel",
+        "answer2": "Lewis Hamilton",
+        "answer3": "Nico Rosberg",
+        "answer4": "Max Verstappen",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+        "answer1": "Daniil Kvyat",
+        "answer2": "Carlos Sainz Jr.",
+        "answer3": "Jolyon Palmer",
+        "answer4": "Rio Haryanto",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Sports",
+        "question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+        "answer1": "Toronto Rock",
+        "answer2": "Toronto Argonauts",
+        "answer3": "Toronto Marlies",
+        "answer4": "Toronto Wolfpack",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+        "answer1": "Australia",
+        "answer2": "Turkey",
+        "answer3": "Cambodia",
+        "answer4": "India",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?",
+        "answer1": "United States of America",
+        "answer2": "Italy",
+        "answer3": "Netherlands",
+        "answer4": "Tunisia",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Sports",
+        "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+        "answer1": "Vladivostok",
+        "answer2": "Rostov-on-Don",
+        "answer3": "Yekaterinburg",
+        "answer4": "Kaliningrad",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which author and poet famously wrote the line, \"The female of the species is more deadly than the male\"?",
+        "answer1": "Edgar Allan Poe",
+        "answer2": "Rudyard Kipling",
+        "answer3": "William Shakespeare",
+        "answer4": "William Wordsworth",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Who wrote the novel \"Moby-Dick\"?",
+        "answer1": "William Golding",
+        "answer2": "William Shakespeare",
+        "answer3": "Herman Melville",
+        "answer4": "J. R. R. Tolkien",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In the Harry Potter universe, what is Cornelius Fudge's middle name?",
+        "answer1": "Oswald",
+        "answer2": "James",
+        "answer3": "Harold",
+        "answer4": "Christopher",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Abel Magwitch is a character from which Charles Dickens novel?",
+        "answer1": "The Pickwick Papers",
+        "answer2": "Nicholas Nickleby",
+        "answer3": "Great Expectations",
+        "answer4": "Oliver Twist",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In the year 1818, novelist Mary Shelly is credited with writing a fiction novel and creating this infamous character.",
+        "answer1": "Frankenstein's monster",
+        "answer2": "Dracula",
+        "answer3": "The Thing",
+        "answer4": "The Invisible Man",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "The title of Adolf Hitler's autobiography \"Mein Kampf\" is what when translated to English?",
+        "answer1": "My Hatred",
+        "answer2": "My Sadness",
+        "answer3": "My Struggle",
+        "answer4": "My Desire",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which of these book series is by James Patterson?",
+        "answer1": "Harry Potter",
+        "answer2": "Maximum Ride",
+        "answer3": "The Legend of Xanth",
+        "answer4": "The Bartemaeus Trilogy",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In the \"Harry Potter\" novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+        "answer1": "Answer a riddle",
+        "answer2": "Rhythmically tap barrels with a wand",
+        "answer3": "Speak a password",
+        "answer4": "Knock in sequence",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which of the following was the author of \"Username Evie\"?",
+        "answer1": "Joe Sugg",
+        "answer2": "Zoe Sugg",
+        "answer3": "Joe Weller",
+        "answer4": "Alfie Deyes",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In \"Little Women\", which of the March sisters married Laurie?",
+        "answer1": "Amy",
+        "answer2": "Beth",
+        "answer3": "Jo",
+        "answer4": "Meg",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "This movie contains the quote, \"What we've got here is a failure to communicate.\"",
+        "answer1": "Bonnie and Clyde",
+        "answer2": "Cool Hand Luke",
+        "answer3": "The Graduate",
+        "answer4": "In the Heat of the Night",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In which African country was the 2006 film 'Blood Diamond' mostly set in?",
+        "answer1": "Sierra Leone",
+        "answer2": "Liberia",
+        "answer3": "Burkina Faso",
+        "answer4": "Central African Republic",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What is the correct phrase for the Latin saying \"Romanes Eunt Domus\" in Monty Python's Life of Brian?",
+        "answer1": "Romans Go Home",
+        "answer2": "Romani Ite Domum",
+        "answer3": "Roxani Ite Domum",
+        "answer4": "Tomate Ite Domum",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In \"Jurassic World\", what is the name of the dinosaur that is a genetic hybrid?",
+        "answer1": "Mosasaurus",
+        "answer2": "Pteranodon",
+        "answer3": "Indominus Rex",
+        "answer4": "Tyrannosaurus Rex ",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-lll?",
+        "answer1": "Ewan McGregor",
+        "answer2": "Alec Guinness",
+        "answer3": "Hayden Christensen",
+        "answer4": "Liam Neeson",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+        "answer1": "Gnarly.",
+        "answer2": "Perfect.",
+        "answer3": "Nice.",
+        "answer4": "Groovy.",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which town is the setting for the Disney movie The Love Bug (1968)?",
+        "answer1": "Los Angeles",
+        "answer2": "Sacramento",
+        "answer3": "San Francisco",
+        "answer4": "San Jose",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?",
+        "answer1": "Tigger",
+        "answer2": "Heffalumps",
+        "answer3": "Gopher",
+        "answer4": "Rabbit",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Who provided a majority of the songs and lyrics for \"Spirit: Stallion of the Cimarron\"?",
+        "answer1": "Bryan Adams",
+        "answer2": "Smash Mouth",
+        "answer3": "Oasis",
+        "answer4": "Air Supply",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In Big Hero 6, what were Baymax's motions modeled after?",
+        "answer1": "Baby penguins",
+        "answer2": "Baby monkeys",
+        "answer3": "Baby ostriches",
+        "answer4": "Baby bears",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Saul Hudson (Slash) of the band Guns N' Roses is known for playing what type of guitar?",
+        "answer1": "Les Paul Standard",
+        "answer2": "Fender Stratocaster",
+        "answer3": "LsL Mongrel",
+        "answer4": "Gretsch Falcon",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which country does the band Rammstein hail from?",
+        "answer1": "Germany",
+        "answer2": "Austria",
+        "answer3": "Armenia",
+        "answer4": "Belgium",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which of the following is NOT a real song from the band Thousand Foot Krutch?",
+        "answer1": "Let The Sparks Fly",
+        "answer2": "Down",
+        "answer3": "Give Up The Ghost",
+        "answer4": "Limitless Fury",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What year was Huun Huur Tu's album Altai Sayan Tandy-Uula released? ",
+        "answer1": "2004",
+        "answer2": "1993",
+        "answer3": "2006",
+        "answer4": "2010",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Who designed the album cover for True Romance, an album by Estelle?",
+        "answer1": "Matt Burnett",
+        "answer2": "Rebecca Sugar",
+        "answer3": "Ian Jones Quartey",
+        "answer4": "Ben Leven",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Who performed \"I Took A Pill In Ibiza\"?",
+        "answer1": "Avicii",
+        "answer2": "Robbie Williams",
+        "answer3": "Mike Posner",
+        "answer4": "Harry Styles",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which artist curated the official soundtrack for \"The Hunger Games: Mockingjay - Part 1\"?",
+        "answer1": "Kanye West",
+        "answer2": "Tove Lo",
+        "answer3": "Charli XCX",
+        "answer4": "Lorde",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What Led Zeppelin album contains \"Stairway to Heaven\"?",
+        "answer1": "Houses of the Holy",
+        "answer2": "Physical Graffiti",
+        "answer3": "Led Zeppelin IV",
+        "answer4": "Led Zeppelin III",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "\"The Genius\" is the original and secondary name of which Wu-Tang Clan member?",
+        "answer1": "Ghostface Killah",
+        "answer2": "GZA",
+        "answer3": "Ol' Dirty Bastard",
+        "answer4": "Raekwon the Chef",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What year did Dire Straits's Song \"Money for Nothing\" release?",
+        "answer1": "1973",
+        "answer2": "1980",
+        "answer3": "1985",
+        "answer4": "1991",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?",
+        "answer1": "Angela",
+        "answer2": "Jessica",
+        "answer3": "Erica",
+        "answer4": "Sandra",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In the Star Trek universe, what color is Vulcan blood?",
+        "answer1": "Blue",
+        "answer2": "Red",
+        "answer3": "Purple",
+        "answer4": "Green",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Dee from \"It's Always Sunny in Philadelphia\" has dated all of the following guys EXCEPT",
+        "answer1": "Colin the Thief",
+        "answer2": "Matthew \"Rickety Cricket\" Mara",
+        "answer3": "Ben the Soldier",
+        "answer4": "Kevin Gallagher aka Lil' Kevin",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What is the name of the main character in \"The Flash\" TV series?",
+        "answer1": "Oliver Queen",
+        "answer2": "Bart Allen",
+        "answer3": "Bruce Wayne",
+        "answer4": "Barry Allen",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In Star Trek: The Next Generation, what is the name of Data's cat?",
+        "answer1": "Mittens",
+        "answer2": "Tom",
+        "answer3": "Kitty",
+        "answer4": "Spot",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In the TV Show \"Donkey Kong Country\", which episode did the song \"Eddie, Let Me Go Back To My Home\" play in?",
+        "answer1": "Message In A Bottle Show",
+        "answer2": "To The Moon Baboon",
+        "answer3": "It's a Wonderful Life",
+        "answer4": "Ape-Nesia",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which of the following won the first season of American Idol in 2002?",
+        "answer1": "Justin Guarini",
+        "answer2": "Ruben Studdard",
+        "answer3": "Chris Daughtry",
+        "answer4": "Kelly Clarkson",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which former Coronation Street actress was once a hostess on the British Game Show \"Double Your Money\"?",
+        "answer1": "Sue Nicholls",
+        "answer2": "Violet Carson",
+        "answer3": "Amanda Barrie",
+        "answer4": "Jean Alexander",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?",
+        "answer1": "Hermione",
+        "answer2": "Sabrina",
+        "answer3": "Dorothy",
+        "answer4": "Dahlia",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "The 1985 Toyota Corolla \"AE86\" was the hero car for what anime? ",
+        "answer1": "Wangan Midnight",
+        "answer2": "Ghost MF",
+        "answer3": "Initial D",
+        "answer4": "Ex Driver",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which one of the following actors did not voice a character in \"Saints Row: The Third\"?",
+        "answer1": "Sasha Grey",
+        "answer2": "Ron Jeremy",
+        "answer3": "Burt Reynolds",
+        "answer4": "Hulk Hogan",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What does Solid Snake use to hide himself with?",
+        "answer1": "Cloaking Device",
+        "answer2": "Metal Crate",
+        "answer3": "Cardboard Box",
+        "answer4": "Cardboard cut-out",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which one of these was not a member of the Fiendish Five in the game Sly Cooper and the Thievius Raccoonus?",
+        "answer1": "Mz. Ruby",
+        "answer2": "Muggshot",
+        "answer3": "Clockwerk",
+        "answer4": "Dimitri Lousteau",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which of these is not a wonder weapon in \"Call Of Duty: Zombies\"?",
+        "answer1": "GKZ-45 Mk3",
+        "answer2": "Ray Gun",
+        "answer3": "Scavenger",
+        "answer4": "R115 Resonator",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What is the perk that was introduced in the \"Call Of Duty: Zombies\" map, \"Mob Of The Dead\"?",
+        "answer1": "Quick Revive",
+        "answer2": "Vulture Aid",
+        "answer3": "Electric Cherry",
+        "answer4": "Tombstone",
+        "correctAnswer": 3
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which one of these games came out first?",
+        "answer1": "Minecraft",
+        "answer2": "Terraria",
+        "answer3": "Starbound",
+        "answer4": "Factorio",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "In \"Call of Duty: Zombies\", what group does Doctor Maxis work for?",
+        "answer1": "Group 935",
+        "answer2": "Group Reanimate",
+        "answer3": "Group Rezurrection",
+        "answer4": "Division 9",
+        "correctAnswer": 1
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "What are Sans and Papyrus named after in \"Undertale\"?",
+        "answer1": "Plants",
+        "answer2": "Companies",
+        "answer3": "Ancient writing paper",
+        "answer4": "Fonts",
+        "correctAnswer": 4
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Rincewind from the 1995 Discworld game was voiced by which member of Monty Python?",
+        "answer1": "John Cleese",
+        "answer2": "Eric Idle",
+        "answer3": "Terry Gilliam",
+        "answer4": "Michael Palin",
+        "correctAnswer": 2
+    },
+    {
+        "topicId": "Entertainment",
+        "question": "Which of the following is a character in the video game Destiny?",
+        "answer1": "Ostrava of Boletaria",
+        "answer2": "Mordecai the Hunter",
+        "answer3": "Cayde-6",
+        "answer4": "Leon S. Kennedy",
+        "correctAnswer": 3
+    }
+]

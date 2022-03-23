@@ -36,7 +36,7 @@
             "children": [
               {
                 "command": "SetValue",
-                "expression": "{correcAnswer:^correctAnswer}",
+                "expression": "{correctAnswer:^correctAnswer}",
                 "widgetName": "htmlrendererCorrectAnswer"
               },
               {
@@ -80,12 +80,6 @@
         "children": [
           {
             "align": "center",
-            "attribute": {
-              "color": "success",
-              "icon": "correct.svg",
-              "name": "iconCorrect",
-              "size": "xx-large"
-            },
             "color": "success",
             "icon": "correct.svg",
             "name": "iconCorrect",
@@ -94,13 +88,6 @@
           },
           {
             "align": "center",
-            "attribute": {
-              "bold": true,
-              "color": "success",
-              "name": "labelCorrect",
-              "size": "x-large",
-              "text": "Correct!"
-            },
             "bold": true,
             "color": "success",
             "name": "labelCorrect",
@@ -116,12 +103,6 @@
         "children": [
           {
             "align": "center",
-            "attribute": {
-              "color": "error",
-              "icon": "incorrect.svg",
-              "name": "iconInCorrect",
-              "size": "xx-large"
-            },
             "color": "error",
             "icon": "incorrect.svg",
             "name": "iconInCorrect",
@@ -130,13 +111,6 @@
           },
           {
             "align": "center",
-            "attribute": {
-              "bold": true,
-              "color": "error",
-              "name": "labelInCorrect",
-              "size": "x-large",
-              "text": "InCorrect!"
-            },
             "bold": true,
             "color": "error",
             "name": "labelInCorrect",

@@ -1,0 +1,13 @@
+{
+  "algorithm": {
+    "parameters": [],
+    "statements": [
+      {
+        "command": "Execute",
+        "expression": "InitializeQuizzesDatabase()"
+      }
+    ],
+    "typeReturn": "any",
+    "variables": []
+  }
+}
